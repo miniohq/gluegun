@@ -1,6 +1,6 @@
 Site: "Gluegun"
 Output: "docs"
-Logo: "https://minio.io/img/logo/wordmark_white.svg"
+Logo: "https://minio.io/img/logo/wordmark_black.svg"
 
 Language:
   - Chinese: https://gluegun.minio.io/cn
@@ -17,8 +17,23 @@ Documents:
       - Gluegun Quick Start Guide:
         Link: https://github.com/minio/gluegun/blob/master/README.md
         Slug: gluegun-quick-start-guide
+      - Gluegun Quick Start Guide:
+        Link: https://github.com/minio/gluegun/blob/master/README.md
+        Slug: gluegun-quick-start-guide-2
+      - Gluegun Quick Start Guide:
+        Link: https://github.com/minio/gluegun/blob/master/README.md
+        Slug: gluegun-quick-start-guide-3
+      - Gluegun Quick Start Guide:
+        Link: https://github.com/minio/gluegun/blob/master/README.md
+        Slug: gluegun-quick-start-guide-4
 
   - Theming:
       - Gluegun Theming Guide:
         Link: https://github.com/minio/gluegun/blob/master/README.md
         Slug: gluegun-theming-guide
+      - Gluegun Theming Guide:
+        Link: https://github.com/minio/gluegun/blob/master/README.md
+        Slug: gluegun-theming-guide-2
+      - Gluegun Theming Guide:
+        Link: https://github.com/minio/gluegun/blob/master/README.md
+        Slug: gluegun-theming-guide-3

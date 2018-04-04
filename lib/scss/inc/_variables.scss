@@ -38,11 +38,11 @@ $font-weight-base: normal;
 // Sidebar
 $sidebar-z-index: 10;
 $sidebar-width: 350px;
-$sidebar-bg: #151515;
-$doclink-header-color: $white;
-$doclink-color: rgba($white, 0.75);
-$doclink-hover-color: rgba($white, 0.875);
-$doclink-active-color: $white;
+$sidebar-bg: $white;
+$doclink-header-color: $body-color;
+$doclink-color: $text-muted-color;
+$doclink-hover-color: $doclink-header-color;
+$doclink-active-color: $doclink-hover-color;
 
 
 // Header
