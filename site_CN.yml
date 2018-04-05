@@ -17,7 +17,7 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/minio/master/README_zh_CN.md
         Slug: minio-quickstart-guide
 
-      - Minio Docker 快速入门:
+      - Minio Docker快速入门:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/docker/README.md
         Slug: minio-docker-quickstart-guide
 
@@ -37,11 +37,11 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/bucket/notifications/README.md
         Slug: minio-bucket-notification-guide
 
-      - Minio Server Limits Per Tenant:
+      - Minio服务限制/租户:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/minio-limits.md
         Slug: minio-server-limits-per-tenant
 
-      - Minio Server器配置指南:
+      - Minio Server配置指南:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/config/README.md
         Slug: minio-server-configuration-guide
 
@@ -49,23 +49,23 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/multi-tenancy/README.md
         Slug: multi-tenant-minio-deployment-guide
 
-      - Minio Azure 网关:
+      - Minio Azure网关:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/gateway/azure.md
         Slug: minio-gateway-for-azure
 
-      - Minio GCS 网关:
+      - Minio GCS网关:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/gateway/gcs.md
         Slug: minio-gateway-for-gcs
 
-      - Minio Gateway for NAS:
+      - Minio NAS网关:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/gateway/nas.md
         Slug: minio-gateway-for-nas
 
-      - Minio Large Bucket Support Quickstart Guide:
+      - Minio超大存储桶快速入门:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/large-bucket/README.md
         Slug: minio-large-bucket-support-quickstart-guide
 
-      - Minio Disk Cache Guide:
+      - Minio磁盘缓存指南:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/disk-caching/README.md
         Slug: minio-disk-cache-guide
 
@@ -119,7 +119,7 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/minio-dotnet/master/Docs/zh_CN/API.md
         Slug: dotnet-client-api-reference
 
-  - 完整的例子: # Full Examples
+  - 完整示例: # Full Examples
       - JavaScript Shopping App:
         Link: https://raw.githubusercontent.com/minio/minio-js-store-app/master/README_zh_CN.md
         Slug: javascript-shopping-app
@@ -144,7 +144,7 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/ror-resumeuploader-app/master/README_zh_CN.md
         Slug: ror-resume-uploader-app
 
-  - 烹饪书: # Cookbook
+  - 实战秘籍: # Cookbook
       - 使用S3cmd操作Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/zh_CN/s3cmd-with-minio.md
         Slug: s3cmd-with-minio
