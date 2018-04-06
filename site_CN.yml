@@ -177,7 +177,7 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/zh_CN/setup-nginx-proxy-with-minio.md
         Slug: setup-nginx-proxy-with-minio
 
-      - Store Apache Logs into Minio:
+      - 将Apache日志存储到Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/zh_CN/aggregate-apache-logs-with-fluentd-and-minio.md
         Slug: aggregate-apache-logs-with-fluentd-and-minio
 
