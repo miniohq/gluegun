@@ -9,6 +9,7 @@
 
   @media(min-width: $screen-lg-min) {
     padding: 40px 40px 0;
+    border-right: 1px solid $border-color;
   }
 
   @media(max-width: $screen-md-max) {
@@ -66,7 +67,7 @@
   position: relative;
 
   &:not(:last-child) {
-    border-bottom: 1px solid $border-inverse-color;
+    border-bottom: 1px solid $border-color;
   }
 
   &:before,
@@ -108,23 +109,26 @@
   list-style: none;
   display: none;
 
-  .doc-link__active {
-    color: $doclink-active-color;
-  }
-
   & > li {
     & > a {
       display: block;
       transition: color 300ms;
-      color: $doclink-color;
       padding: 5px 0;
       font-size: $font-size-base - 2;
+
+      &:not(.doc-link__active) {
+        color: $doclink-color;
+      }
 
       &:hover {
         color: $doclink-hover-color;
       }
     }
   }
+}
+
+.doc-link__active {
+  color: $doclink-active-color;
 }
 
 .doc-link__header {
