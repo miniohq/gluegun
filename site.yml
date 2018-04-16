@@ -10,6 +10,7 @@ Plugins:
       apiKey: "0ba0d26da4d1483f96c03fe508304a64"
       index: "minio"
   - Google Analytics: "UA-56860620-7"
+  - Mixpanel: "MIXPANEL_TOKEN"
   - Footer Widget:
       Label: "Talk to community"
       Link: "https://slack.minio.io"
