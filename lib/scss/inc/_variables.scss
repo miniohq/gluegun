@@ -12,7 +12,7 @@ $screen-md-max: ($screen-lg-min - 1);
 $border-color: #f0f0f0;
 $border-inverse-color: #2f2f2f;
 $muted-bg: #f9f9f9;
-$text-muted-color: #777;
+$text-muted-color: #000;
 
 // Colors
 $black: #000;
@@ -42,7 +42,9 @@ $sidebar-bg: $white;
 $doclink-header-color: $body-color;
 $doclink-color: $text-muted-color;
 $doclink-hover-color: $doclink-header-color;
+$doclink-hover-bg-color: #fafafa;
 $doclink-active-color: $doclink-hover-color;
+$doclink-active-bg-color: #efefef;
 
 
 // Header
