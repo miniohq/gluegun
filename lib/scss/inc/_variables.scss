@@ -12,7 +12,7 @@ $screen-md-max: ($screen-lg-min - 1);
 $border-color: #f0f0f0;
 $border-inverse-color: #2f2f2f;
 $muted-bg: #f9f9f9;
-$text-muted-color: #000;
+$text-muted-color: #606060;
 
 // Colors
 $black: #000;
@@ -30,8 +30,8 @@ $link-color: #2d91e6;
 
 // Font
 $font-size-base: 18px;
-$font-family: 'Roboto', sans-serif;
-$font-weight-bold: 500;
+$font-family: 'Source Sans Pro', sans-serif;
+$font-weight-bold: 600;
 $font-weight-base: normal;
 
 
@@ -41,10 +41,10 @@ $sidebar-width: 350px;
 $sidebar-bg: $white;
 $doclink-header-color: $body-color;
 $doclink-color: $text-muted-color;
-$doclink-hover-color: $doclink-header-color;
+$doclink-hover-color: $text-muted-color;
 $doclink-hover-bg-color: #fafafa;
-$doclink-active-color: $doclink-hover-color;
-$doclink-active-bg-color: #efefef;
+$doclink-active-color: $doclink-header-color;
+$doclink-active-bg-color: #f2f2f2;
 
 
 // Header
@@ -57,12 +57,12 @@ $pre-bg: #f8f8f8;
 
 
 // Headings
-$h1-font-size: $font-size-base * 1.7;
-$h2-font-size: $font-size-base * 1.5;
-$h3-font-size: $font-size-base * 1.3;
-$h4-font-size: $font-size-base * 1.1;
-$h5-font-size: $font-size-base * 0.9;
-$h6-font-size: $font-size-base * 0.7;
+$h1-font-size: ($font-size-base - 1) * 1.65;
+$h2-font-size: ($font-size-base - 1) * 1.4;
+$h3-font-size: ($font-size-base - 1) * 1.3;
+$h4-font-size: ($font-size-base - 1) * 1.1;
+$h5-font-size: ($font-size-base - 1) * 0.9;
+$h6-font-size: ($font-size-base - 1) * 0.7;
 $headings-color: $body-color;
 
 
