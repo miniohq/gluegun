@@ -444,13 +444,13 @@ textarea {
   transition: border-bottom-color 300ms;
   font-size: 17px; }
   .search__text::-webkit-input-placeholder {
-    color: #777; }
+    color: #000; }
   .search__text:-moz-placeholder {
-    color: #777; }
+    color: #000; }
   .search__text::-moz-placeholder {
-    color: #777; }
+    color: #000; }
   .search__text:-ms-input-placeholder {
-    color: #777; }
+    color: #000; }
   .search__text:focus {
     border-bottom-color: #bdbdbd; }
 
@@ -564,7 +564,7 @@ textarea {
 
 .doc-link {
   padding: 0;
-  margin: 0;
+  margin: 0 -40px;
   list-style: none; }
 
 .doc-link__category {
@@ -575,7 +575,7 @@ textarea {
     content: '';
     position: absolute;
     top: 30px;
-    right: 5px;
+    right: 45px;
     width: 11px;
     height: 11px;
     background-repeat: no-repeat;
@@ -605,18 +605,20 @@ textarea {
     display: block;
     -webkit-transition: color 300ms;
     transition: color 300ms;
-    padding: 5px 0;
+    padding: 5px 40px;
     font-size: 16px; }
     .doc-link__items > li > a:not(.doc-link__active) {
-      color: #777; }
-    .doc-link__items > li > a:hover {
       color: #000; }
+    .doc-link__items > li > a:hover {
+      color: #000;
+      background-color: #fafafa; }
 
 .doc-link__active {
-  color: #000; }
+  color: #000;
+  background-color: #efefef; }
 
 .doc-link__header {
-  padding: 20px 30px 20px 0;
+  padding: 20px 40px;
   display: block; }
   .doc-link__header, .doc-link__header:hover, .doc-link__header:focus {
     color: #000; }
@@ -637,7 +639,7 @@ textarea {
 
 .footer {
   margin-top: 50px;
-  color: #777;
+  color: #000;
   font-size: 16px;
   border-top: 1px solid #f0f0f0;
   padding-top: 20px; }
@@ -794,12 +796,12 @@ th, td {
   padding: 5px 20px;
   font-size: 15px;
   display: block;
-  color: #777;
+  color: #000;
   -webkit-transition: color 300ms, background-color 300ms;
   transition: color 300ms, background-color 300ms; }
   .dropdown__item:hover {
     background-color: #f7f7f7;
-    color: #444444; }
+    color: black; }
 
 .dropdown__backdrop {
   position: fixed;
@@ -826,7 +828,7 @@ th, td {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   border-radius: 2px;
-  color: #777;
+  color: #000;
   -webkit-transition: color 300ms;
   transition: color 300ms;
   font-weight: normal; }
