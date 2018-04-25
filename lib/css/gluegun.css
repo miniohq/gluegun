@@ -311,7 +311,7 @@ html {
   font-size: 18px; }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   background-color: #fff;
   color: #000; }
 
@@ -335,26 +335,26 @@ p {
     white-space: pre; }
 
 h1 {
-  font-size: 30.6px; }
+  font-size: 28.05px; }
 
 h2 {
-  font-size: 27px; }
+  font-size: 23.8px; }
 
 h3 {
-  font-size: 23.4px; }
+  font-size: 22.1px; }
 
 h4 {
-  font-size: 19.8px; }
+  font-size: 18.7px; }
 
 h5 {
-  font-size: 16.2px; }
+  font-size: 15.3px; }
 
 h6 {
-  font-size: 12.6px; }
+  font-size: 11.9px; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 25px 0 12px 0;
-  font-weight: normal; }
+  font-weight: 600; }
 
 pre {
   position: relative;
@@ -444,13 +444,13 @@ textarea {
   transition: border-bottom-color 300ms;
   font-size: 17px; }
   .search__text::-webkit-input-placeholder {
-    color: #000; }
+    color: #606060; }
   .search__text:-moz-placeholder {
-    color: #000; }
+    color: #606060; }
   .search__text::-moz-placeholder {
-    color: #000; }
+    color: #606060; }
   .search__text:-ms-input-placeholder {
-    color: #000; }
+    color: #606060; }
   .search__text:focus {
     border-bottom-color: #bdbdbd; }
 
@@ -606,20 +606,22 @@ textarea {
     -webkit-transition: color 300ms;
     transition: color 300ms;
     padding: 5px 40px;
-    font-size: 16px; }
+    font-size: 17.3px; }
     .doc-link__items > li > a:not(.doc-link__active) {
-      color: #000; }
+      color: #606060; }
     .doc-link__items > li > a:hover {
-      color: #000;
+      color: #606060;
       background-color: #fafafa; }
 
 .doc-link__active {
   color: #000;
-  background-color: #efefef; }
+  background-color: #f2f2f2; }
 
 .doc-link__header {
   padding: 20px 40px;
-  display: block; }
+  display: block;
+  font-weight: 600;
+  text-transform: uppercase; }
   .doc-link__header, .doc-link__header:hover, .doc-link__header:focus {
     color: #000; }
 
@@ -639,7 +641,7 @@ textarea {
 
 .footer {
   margin-top: 50px;
-  color: #000;
+  color: #606060;
   font-size: 16px;
   border-top: 1px solid #f0f0f0;
   padding-top: 20px; }
@@ -796,12 +798,12 @@ th, td {
   padding: 5px 20px;
   font-size: 15px;
   display: block;
-  color: #000;
+  color: #606060;
   -webkit-transition: color 300ms, background-color 300ms;
   transition: color 300ms, background-color 300ms; }
   .dropdown__item:hover {
     background-color: #f7f7f7;
-    color: black; }
+    color: #2d2d2d; }
 
 .dropdown__backdrop {
   position: fixed;
@@ -825,10 +827,10 @@ th, td {
   border: 5px solid #f8f8f8;
   font-size: 0.75rem;
   padding: 0.25rem 0.65rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   cursor: pointer;
   border-radius: 2px;
-  color: #000;
+  color: #606060;
   -webkit-transition: color 300ms;
   transition: color 300ms;
   font-weight: normal; }
