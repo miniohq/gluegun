@@ -390,7 +390,12 @@ blockquote {
   min-height: 100vh; }
   @media (min-width: 1200px) {
     .content {
-      padding: 25px 40px 40px 390px; } }
+      -webkit-transition: padding-left 300ms ease-out;
+      transition: padding-left 300ms ease-out; }
+      .content:not(.toggled) {
+        padding: 35px 40px 40px 390px; }
+      .content.toggled {
+        padding: 35px 40px; } }
   @media (min-width: 768px) and (max-width: 1199px) {
     .content {
       padding: 40px; } }
@@ -498,17 +503,16 @@ textarea {
   .doc-actions__item--web {
     display: none; } }
 
-@media (max-width: 1199px) {
-  .sidebar-toggle {
-    height: 42px;
-    width: 45px;
-    background: url(../img/icons/sidebar-toggle.svg) center no-repeat;
-    border: 1px solid #f0f0f0;
-    margin-right: 15px;
-    -webkit-transition: border-color 300ms;
-    transition: border-color 300ms; }
-    .sidebar-toggle:hover, .sidebar-toggle:focus {
-      border-color: #bdbdbd; } }
+.sidebar-toggle {
+  height: 42px;
+  width: 45px;
+  background: url(../img/icons/sidebar-toggle.svg) center no-repeat;
+  border: 1px solid #f0f0f0;
+  margin-right: 15px;
+  -webkit-transition: border-color 300ms;
+  transition: border-color 300ms; }
+  .sidebar-toggle:hover, .sidebar-toggle:focus {
+    border-color: #bdbdbd; }
 
 .sidebar {
   width: 350px;
@@ -525,11 +529,7 @@ textarea {
   @media (max-width: 1199px) {
     .sidebar {
       padding: 30px 30px 0;
-      z-index: 10;
-      -webkit-transition: -webkit-transform 300ms, -webkit-box-shadow 300ms;
-      transition: -webkit-transform 300ms, -webkit-box-shadow 300ms;
-      transition: transform 300ms, box-shadow 300ms;
-      transition: transform 300ms, box-shadow 300ms, -webkit-transform 300ms, -webkit-box-shadow 300ms; }
+      z-index: 10; }
       .sidebar:not(.toggled) {
         -webkit-transform: translate3d(-370px, 0, 0);
                 transform: translate3d(-370px, 0, 0); }
