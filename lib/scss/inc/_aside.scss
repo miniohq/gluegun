@@ -48,9 +48,11 @@
     border-radius: 50%;
     transition: border-color 300ms;
     border: 1px solid transparent;
+    opacity: 0.75;
 
     &:hover {
-      background-color: rgba($white, 0.05);
+      background-color: rgba($black, 0.05);
+      opacity: 1;
     }
   }
 }
