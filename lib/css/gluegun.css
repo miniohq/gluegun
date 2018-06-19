@@ -311,7 +311,7 @@ html {
   font-size: 18px; }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   background-color: #fff;
   color: #707070; }
 
@@ -554,9 +554,11 @@ textarea {
     border-radius: 50%;
     -webkit-transition: border-color 300ms;
     transition: border-color 300ms;
-    border: 1px solid transparent; }
+    border: 1px solid transparent;
+    opacity: 0.75; }
     .sidebar__close:hover {
-      background-color: rgba(255, 255, 255, 0.05); } }
+      background-color: rgba(0, 0, 0, 0.05);
+      opacity: 1; } }
 
 .logo {
   display: block;
@@ -820,7 +822,7 @@ th, td {
   border: 5px solid #f8f8f8;
   font-size: 0.75rem;
   padding: 0.25rem 0.65rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   cursor: pointer;
   border-radius: 2px;
   color: #777;
