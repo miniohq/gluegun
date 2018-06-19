@@ -128,7 +128,7 @@
       transition: color 300ms;
       color: $doclink-color;
       padding: 5px 0;
-      font-size: $font-size-base - 2;
+      font-size: $font-size-base - 0.7;
 
       &:hover {
         color: $doclink-hover-color;
@@ -140,6 +140,8 @@
 .doc-link__header {
   padding: 20px 30px 20px 0;
   display: block;
+  font-weight: $font-weight-bold;
+  text-transform: uppercase;
 
   &, &:hover, &:focus {
     color: $doclink-header-color;

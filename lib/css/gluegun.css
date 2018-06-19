@@ -313,7 +313,7 @@ html {
 body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: #fff;
-  color: #707070; }
+  color: #000; }
 
 a {
   color: #2d91e6; }
@@ -335,27 +335,27 @@ p {
     white-space: pre-line; }
 
 h1 {
-  font-size: 30.6px; }
+  font-size: 28.05px; }
 
 h2 {
-  font-size: 27px; }
+  font-size: 23.8px; }
 
 h3 {
-  font-size: 23.4px; }
+  font-size: 22.1px; }
 
 h4 {
-  font-size: 19.8px; }
+  font-size: 18.7px; }
 
 h5 {
-  font-size: 16.2px; }
+  font-size: 15.3px; }
 
 h6 {
-  font-size: 12.6px; }
+  font-size: 11.9px; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 25px 0 12px 0;
-  font-weight: normal;
-  color: #414141; }
+  font-weight: 600;
+  color: #000; }
 
 pre {
   position: relative;
@@ -447,13 +447,13 @@ textarea {
   transition: border-bottom-color 300ms;
   font-size: 17px; }
   .search__text::-webkit-input-placeholder {
-    color: #777; }
+    color: #606060; }
   .search__text:-moz-placeholder {
-    color: #777; }
+    color: #606060; }
   .search__text::-moz-placeholder {
-    color: #777; }
+    color: #606060; }
   .search__text:-ms-input-placeholder {
-    color: #777; }
+    color: #606060; }
   .search__text:focus {
     border-bottom-color: #bdbdbd; }
 
@@ -473,7 +473,7 @@ textarea {
   transition: border-color 300ms;
   margin-left: 15px; }
   .doc-actions__item, .doc-actions__item:hover, .doc-actions__item:focus {
-    color: #707070; }
+    color: #000; }
   @media (min-width: 1200px) {
     .doc-actions__item {
       padding: 4px 15px 3px; } }
@@ -613,15 +613,17 @@ textarea {
     transition: color 300ms;
     color: #707070;
     padding: 5px 0;
-    font-size: 16px; }
+    font-size: 17.3px; }
     .doc-link__items > li > a:hover {
       color: #242424; }
 
 .doc-link__header {
   padding: 20px 30px 20px 0;
-  display: block; }
+  display: block;
+  font-weight: 600;
+  text-transform: uppercase; }
   .doc-link__header, .doc-link__header:hover, .doc-link__header:focus {
-    color: #414141; }
+    color: #000; }
 
 @media (min-width: 1200px) {
   .sidebar-backdrop {
@@ -639,7 +641,7 @@ textarea {
 
 .footer {
   margin-top: 50px;
-  color: #777;
+  color: #606060;
   font-size: 16px;
   border-top: 1px solid #f0f0f0;
   padding-top: 20px; }
@@ -677,7 +679,7 @@ th {
   text-align: left;
   font-weight: normal;
   background-color: #fff;
-  color: #414141; }
+  color: #000; }
 
 th, td {
   padding: 15px 20px; }
@@ -796,12 +798,12 @@ th, td {
   padding: 5px 20px;
   font-size: 15px;
   display: block;
-  color: #777;
+  color: #606060;
   -webkit-transition: color 300ms, background-color 300ms;
   transition: color 300ms, background-color 300ms; }
   .dropdown__item:hover {
     background-color: #f7f7f7;
-    color: #444444; }
+    color: #2d2d2d; }
 
 .dropdown__backdrop {
   position: fixed;
@@ -825,9 +827,9 @@ th, td {
   font-family: "Source Sans Pro", sans-serif;
   cursor: pointer;
   border-radius: 2px;
-  color: #777;
+  color: #606060;
   -webkit-transition: color 300ms;
   transition: color 300ms;
   font-weight: normal; }
   .copy-to-clipboard:hover {
-    color: #707070; }
+    color: #000; }
