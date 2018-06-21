@@ -42,7 +42,7 @@ p {
     margin: 0 10px;
     position: relative;
     top: -2px;
-    white-space: pre;
+    white-space: pre-line;
   }
 }
 
@@ -56,6 +56,7 @@ h6 { font-size: $h6-font-size; }
 h1, h2, h3, h4, h5, h6 {
   margin: 25px 0 12px 0;
   font-weight: $font-weight-bold;
+  color: $headings-color;
 }
 
 pre {

@@ -1,9 +1,3 @@
-// Disable body scrolling
-.body-locked {
-  overflow: hidden !important;
-}
-
-
 // Copy to clipboard
 .copy-to-clipboard {
   position: absolute;
@@ -19,7 +13,7 @@
   color: $text-muted-color;
   transition: color 300ms;
   font-weight: $font-weight-base;
-  
+
   &:hover {
     color: $body-color;
   }
