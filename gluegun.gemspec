@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "gluegun"
   spec.version       = Gluegun::VERSION
   spec.authors       = ["minio"]
-  spec.email         = ["sysadmin@minio.io"]
+  spec.email         = ["devops@minio.io"]
   spec.license       = "Apache-2.0"
   spec.summary       = %q{Gluegun is glues markdown docs from github and creates a beautiful docs site.}
   spec.description   = %q{Gluegun is glues markdown docs from github and pulls together a beautiful docs site. }
@@ -25,13 +25,13 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.bindir        = ["bin"]
+  spec.executables   = ["gluegun"]
   spec.require_paths = ["lib"]
   spec.required_ruby_version = ">= 2.4"
 
   spec.post_install_message = %q{
-    Generate sites using:  `./gluegun generate site.yml`
+    Generate sites using:  `gluegun generate site.yml`
     For more details see https://gluegun.minio.io
   }
 
