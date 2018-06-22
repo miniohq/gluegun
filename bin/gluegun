@@ -3,7 +3,6 @@
 require 'gluegun'
 require 'optparse'
 
-
 opt_parser = OptionParser.new do |opt|
   opt.banner = "Usage: gluegun COMMAND [OPTIONS]"
   opt.separator  ""

@@ -1,13 +1,12 @@
 # Gluegun
 Gluegun glues markdown files to generate a beautiful documentation site.
  
-
 ## Pre-Requisite
 
-A minimum version of ruby2.4 is required.
+- ruby2.4 or above (download https://rvm.io/ and use rvm to manage your ruby)
+- yarn 1.7.0 (download from https://yarnpkg.com)
 
 ## Installation
-
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -16,19 +15,25 @@ gem 'gluegun'
 
 And then execute:
 
-    $ bundle
+```
+rake
+```
 
 Or install it yourself as:
 
-    $ gem install gluegun
+```
+gem install gluegun
+```
 
 Or in your script:
 
+```ruby
     require `gluegun`
-    
+```
     
 ## Usage
 
+```
         NAME:
           gluegun - Glues github markdown files to a documentation site.
 
@@ -37,11 +42,14 @@ Or in your script:
 
         COMMANDS:
           generate Generate new docs site with an URL or file path.
-          
+```
+
 ## Example
 
-        gluegun generate https://github.com/gluegun/site.yml
-        
+```
+gluegun generate site.yml
+```
+
 ## Building Gluegun Gem
 Build the gem using the command 
 
@@ -56,5 +64,5 @@ gem install gluegun
 
 Run the gluegun CLI 
 ```
-./gluegun generate ./site.yml
+gluegun generate ./site.yml
 ````

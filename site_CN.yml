@@ -1,6 +1,6 @@
 Site: "Minio Docs"
 Output: "cn"
-Logo: "https://minio.io/img/logo/wordmark_white.svg"
+Logo: "https://minio.io/img/logo/wordmark_black.svg"
 
 Language:
   - English: https://docs.minio.io
@@ -10,6 +10,9 @@ Plugins:
       apiKey: "0ba0d26da4d1483f96c03fe508304a64"
       index: "minio"
   - Google Analytics: "UA-56860620-7"
+  - Footer Widget:
+      Label: "Talk to community"
+      Link: "https://slack.minio.io"
 
 Documents:
   - Minio服务器: # Minio Server
