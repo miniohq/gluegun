@@ -17,11 +17,7 @@ server {
     index index.html index.htm index.nginx-debian.html;
     server_name gluegun.minio.io; # managed by Certbot
 
-    error_page 404 /custom_404.html;
-    location = /custom_404.html {
-	root /var/www/html/404;
-	internal;
-    }
+    error_page 404 /docs/404.html;
 
     location / {
 	# break if URI has .html extension
