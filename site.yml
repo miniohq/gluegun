@@ -3,7 +3,7 @@ Output: "docs"
 Logo: "https://minio.io/img/logo/wordmark_black.svg"
 
 Language:
-  - Chinese: /cn
+  - Chinese: https://docs.minio.io/cn
 
 Plugins:
   - Algolia:
@@ -72,20 +72,6 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/disk-caching/README.md
         Slug: minio-disk-cache-guide
 
-      - Minio Monitoring Guide:
-        Link: https://github.com/minio/minio/blob/master/docs/metrics/README.md
-        Slug: minio-monitoring-guide
-
-      - Minio Federation Quickstart Guide:
-        Link: https://github.com/minio/minio/blob/master/docs/federation/lookup/README.md
-        Slug: minio-federation-quickstart-guide
-
-      - Minio KMS Quickstart Guide:
-        Link: https://github.com/minio/minio/blob/master/docs/kms/README.md
-
-      - Minio Select API Quickstart Guide:
-        Link: https://github.com/minio/minio/blob/master/docs/select/README.md
-
   - Minio Client:
       - Minio Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/mc/master/README.md
@@ -94,10 +80,6 @@ Documents:
       - Minio Client Complete Guide:
         Link: https://raw.githubusercontent.com/minio/mc/master/docs/minio-client-complete-guide.md
         Slug: minio-client-complete-guide
-
-      - Minio Admin Complete Guide:
-        Link: https://github.com/minio/mc/blob/master/docs/minio-admin-complete-guide.md
-        Slug: minio-admin-complete-guide
 
   - Minio SDKs:
       - JavaScript Client Quickstart Guide:
@@ -139,6 +121,31 @@ Documents:
       - .NET Client API Reference:
         Link: https://raw.githubusercontent.com/minio/minio-dotnet/master/Docs/API.md
         Slug: dotnet-client-api-reference
+
+  - Full Examples:
+      - JavaScript Shopping App:
+        Link: https://raw.githubusercontent.com/minio/minio-js-store-app/master/README.md
+        Slug: javascript-shopping-app
+
+      - Java Photo API Service:
+        Link: https://raw.githubusercontent.com/minio/minio-java-rest-example/master/README.md
+        Slug: java-photo-api-service
+
+      - Go Music Player App:
+        Link: https://raw.githubusercontent.com/minio/minio-go-media-player/master/README.md
+        Slug: go-music-player-app
+
+      - Android Photo App:
+        Link: https://raw.githubusercontent.com/minio/android-photo-app/master/README.md
+        Slug: android-photo-app
+
+      - Swift Photo App:
+        Link: https://raw.githubusercontent.com/minio/swift-photo-app/master/README.md
+        Slug: swift-photo-app
+
+      - RoR Resume Uploader App:
+        Link: https://raw.githubusercontent.com/minio/ror-resumeuploader-app/master/README.md
+        Slug: ror-resume-uploader-app
 
   - Cookbook:
       - S3cmd with Minio:
@@ -244,14 +251,6 @@ Documents:
       - How to use Minio's server-side-encryption with aws-cli:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/how-to-use-minio-server-side-encryption-with-aws-cli.md
         Slug: how-to-use-minio-s-server-side-encryption-with-aws-cli
-
-      - How to deploy Alluxio with Minio:
-        Link: https://github.com/minio/cookbook/blob/master/docs/alluxio-with-minio.md
-        Slug: how-to-deploy-alluxio-with-minio
-
-      - How to monitor Minio using Prometheus:
-        Link: https://github.com/minio/cookbook/blob/master/docs/how-to-monitor-minio-with-prometheus.md
-        Slug: how-to-monitor-minio-using-prometheus
 
   - Related Projects:
       - Generate Let's Encrypt certificate using Certbot for Minio:
