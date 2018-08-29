@@ -1,24 +1,26 @@
 // Theme Colors
 $text-muted-color: #606060;
 $border-color: #f0f0f0;
+$highlight-color: #e6522c;
 
 // Headings
 $headings-color: #000;
-$headings-alt-color: #e6522c;
-$headings-font-weight: 500;
+$headings-alt-color: $highlight-color;
+$headings-font-weight: normal;
 
 // Sidebar
+$sidebar-width: 300px;
 $sidebar-bg: #fff;
-$sidebar-border-color: $border-color;
-$doclink-header-color: #e6522c;
+$sidebar-border-color: transparent;
+$doclink-header-color: $highlight-color;
 $doclink-header-font-weight: 500;
 $doclink-header-text-transform: uppercase;
 $doclink-color: #707070;
 $doclink-hover-color: darken($doclink-color, 30%);
 $doclink-active-color: #000;
-$doclink-category-border-color: $border-color;
+$doclink-category-border-color: transparent;
 $sidebar-close-fill: #000;
-$doclink-toggle-icon-stroke: #000;
+$doclink-toggle-icon-stroke: transparent;
 $sidebar-close-hover-bg: #f5f5f5;
 
 // Code
@@ -26,3 +28,10 @@ $pre-bg: #f8f8f8;
 
 // Footer text color
 $footer-widget-bg: #e8846d;
+
+//----------------------------------------------------
+
+
+// Theme Only
+$doclink-before-bg: #eee;
+$doclink-hover-bg: #f7f7f7;
