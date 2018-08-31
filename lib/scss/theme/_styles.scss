@@ -1,0 +1,34 @@
+// Sidebar
+.doc-link__items {
+
+}
+
+.doc-link__items {
+  margin-left: 5px;
+
+  & > li {
+    & > a {
+      border-left: 15px solid transparent;
+      box-shadow: -1px 0 0 $doclink-before-bg;
+
+      &:hover {
+        background-color: $doclink-hover-bg;
+      }
+    }
+  }
+}
+
+.doc-link__active {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: -18px;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background-color: $highlight-color;
+    z-index: 1;
+  }
+}
