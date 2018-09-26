@@ -2,7 +2,7 @@
 $theme-highlight-color: #e6522c;
 
 // Headings
-$headings-alt-color: #e6522c;
+$headings-alt-color: $theme-highlight-color;
 $headings-font-weight: normal;
 
 // Sidebar
