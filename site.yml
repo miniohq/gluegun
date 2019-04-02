@@ -1,6 +1,7 @@
 Site: "Minio Docs"
 Output: "docs"
 Logo: "https://min.io/resources/img/logo/black-logo.svg"
+SEO Author: "MinIO"
 
 Language:
   - Chinese: /cn
@@ -20,264 +21,460 @@ Documents:
       - Minio Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/README.md
         Slug: minio-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Docker Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/docker/README.md
         Slug: minio-docker-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Erasure Code Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/erasure/README.md
         Slug: minio-erasure-code-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Distributed Minio Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/distributed/README.md
         Slug: distributed-minio-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to secure access to Minio server with TLS:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/tls/README.md
         Slug: how-to-secure-access-to-minio-server-with-tls
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Bucket Notification Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/bucket/notifications/README.md
         Slug: minio-bucket-notification-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Server Limits Per Tenant:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/minio-limits.md
         Slug: minio-server-limits-per-tenant
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Server Configuration Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/config/README.md
         Slug: minio-server-configuration-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Multi-tenant Minio Deployment Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/multi-tenancy/README.md
         Slug: multi-tenant-minio-deployment-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Gateway for Azure:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/azure.md
         Slug: minio-gateway-for-azure
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Gateway for GCS:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/gcs.md
         Slug: minio-gateway-for-gcs
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Gateway for NAS:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/nas.md
         Slug: minio-gateway-for-nas
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Large Bucket Support Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/large-bucket/README.md
         Slug: minio-large-bucket-support-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Disk Cache Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/disk-caching/README.md
         Slug: minio-disk-cache-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Monitoring Guide:
         Link: https://github.com/minio/minio/blob/master/docs/metrics/README.md
         Slug: minio-monitoring-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Federation Quickstart Guide:
         Link: https://github.com/minio/minio/blob/master/docs/federation/lookup/README.md
         Slug: minio-federation-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio KMS Quickstart Guide:
         Link: https://github.com/minio/minio/blob/master/docs/kms/README.md
         Slug: minio-kms-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Select API Quickstart Guide:
         Link: https://github.com/minio/minio/blob/master/docs/select/README.md
         Slug: minio-select-api-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Compression Guide:
         Link: https://github.com/minio/minio/blob/master/docs/compression/README.md
         Slug: minio-compression-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Multi-User Quickstart Guide:
         Link: https://github.com/minio/minio/blob/master/docs/multi-user/README.md
         Slug: minio-multi-user-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio STS Quickstart Guide:
         Link: https://github.com/minio/minio/blob/master/docs/sts/README.md
         Slug: minio-sts-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
   - Minio Client:
       - Minio Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/mc/master/README.md
         Slug: minio-client-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
+        
 
       - Minio Client Complete Guide:
         Link: https://raw.githubusercontent.com/minio/mc/master/docs/minio-client-complete-guide.md
         Slug: minio-client-complete-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Minio Admin Complete Guide:
         Link: https://github.com/minio/mc/blob/master/docs/minio-admin-complete-guide.md
         Slug: minio-admin-complete-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
   - Minio SDKs:
       - JavaScript Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio-js/master/README.md
         Slug: javascript-client-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - JavaScript Client API Reference:
         Link: https://raw.githubusercontent.com/minio/minio-js/master/docs/API.md
         Slug: javascript-client-api-reference
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Java Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio-java/master/README.md
         Slug: java-client-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Java Client API Reference:
         Link: https://raw.githubusercontent.com/minio/minio-java/master/docs/API.md
         Slug: java-client-api-reference
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Python Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio-py/master/README.md
         Slug: python-client-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Python Client API Reference:
         Link: https://raw.githubusercontent.com/minio/minio-py/master/docs/API.md
         Slug: python-client-api-reference
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Golang Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio-go/master/README.md
         Slug: golang-client-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Golang Client API Reference:
         Link: https://raw.githubusercontent.com/minio/minio-go/master/docs/API.md
         Slug: golang-client-api-reference
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - .NET Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio-dotnet/master/README.md
         Slug: dotnet-client-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - .NET Client API Reference:
         Link: https://raw.githubusercontent.com/minio/minio-dotnet/master/Docs/API.md
         Slug: dotnet-client-api-reference
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
   - Cookbook:
       - S3cmd with Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/s3cmd-with-minio.md
         Slug: s3cmd-with-minio
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - AWS CLI with Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-cli-with-minio.md
         Slug: aws-cli-with-minio
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - restic with Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/restic-with-minio.md
         Slug: restic-with-minio
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Store MySQL Backups in Minio:
         Link: https://github.com/minio/cookbook/blob/master/docs/store-mysql-backups-in-minio.md
         Slug: store-mysql-backups-in-minio
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Store MongoDB Backups in Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/store-mongodb-backups-in-minio.md
         Slug: store-mongodb-backups-in-minio
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Store PostgreSQL Backups in Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/store-postgresql-backups-in-minio.md
         Slug: store-postgresql-backups-in-minio
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Setup Caddy proxy with Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/setup-caddy-proxy-with-minio.md
         Slug: setup-caddy-proxy-with-minio
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Setup Nginx proxy with Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/setup-nginx-proxy-with-minio.md
         Slug: setup-nginx-proxy-with-minio
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Store Apache Logs into Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aggregate-apache-logs-with-fluentd-and-minio.md
         Slug: aggregate-apache-logs-with-fluentd-and-minio
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Rclone with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/rclone-with-minio.md
         Slug: rclone-with-minio-server
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Setup Apache HTTP proxy with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/setup-apache-http-proxy-with-minio.md
         Slug: setup-apache-http-proxy-with-minio-server
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Upload files from browser using pre-signed URLs:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/presigned-put-upload-via-browser.md
         Slug: upload-files-from-browser-using-pre-signed-urls
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to run Minio in FreeNAS?:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/running-minio-in-freenas.md
         Slug: how-to-run-minio-in-freenas
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to use AWS SDK for PHP with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-php-with-minio.md
         Slug: how-to-use-aws-sdk-for-php-with-minio-server
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to use AWS SDK for Ruby with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-ruby-with-minio.md
         Slug: how-to-use-aws-sdk-for-ruby-with-minio-server
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to use AWS SDK for Python with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-python-with-minio.md
         Slug: how-to-use-aws-sdk-for-python-with-minio-server
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to use AWS SDK for JavaScript with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-javascript-with-minio.md
         Slug: how-to-use-aws-sdk-for-javascript-with-minio-server
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to run multiple Minio servers with Træfɪk:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/multiple-minio-servers-with-traefik.md
         Slug: how-to-run-multiple-minio-servers-with-traef-k
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to use AWS SDK for Go with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-go-with-minio.md
         Slug: how-to-use-aws-sdk-for-go-with-minio-server
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to use AWS SDK for Java with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-java-with-minio.md
         Slug: how-to-use-aws-sdk-for-java-with-minio-server
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to use Paperclip with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/how-to-use-paperclip-with-minio.md
         Slug: how-to-use-paperclip-with-minio-server
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to use AWS SDK for .NET with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-dotnet-with-minio.md
         Slug: how-to-use-aws-sdk-for-net-with-minio-server
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to use Minio's server-side-encryption with aws-cli:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/how-to-use-minio-server-side-encryption-with-aws-cli.md
         Slug: how-to-use-minio-s-server-side-encryption-with-aws-cli
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to monitor Minio using Prometheus:
         Link: https://github.com/minio/cookbook/blob/master/docs/how-to-monitor-minio-with-prometheus.md
         Slug: how-to-monitor-minio-using-prometheus
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
   - Related Projects:
       - Generate Let's Encrypt certificate using Certbot for Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/generate-lets-encypt-certificate-using-certbot-for-minio.md
         Slug: generate-let-s-encypt-certificate-using-concert-for-minio
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - How to install Golang?:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/how-to-install-golang.md
         Slug: how-to-install-golang
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
   - Minio Deployment:
       - Minio Deployment Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/README.md
         Slug: minio-deployment-quickstart-guide
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Deploy Minio on Docker Swarm:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/docker-swarm/README.md
         Slug: deploy-minio-on-docker-swarm
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Deploy Minio on Kubernetes:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/kubernetes/README.md
         Slug: deploy-minio-on-kubernetes
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Deploy Minio on DC/OS:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/dcos/README.md
         Slug: deploy-minio-on-dc-os
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
 
       - Deploy Minio on Docker Compose:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/docker-compose/README.md
         Slug: deploy-minio-on-docker-compose
+        SEO Title:
+        SEO Description:
+        SEO Keywords:
