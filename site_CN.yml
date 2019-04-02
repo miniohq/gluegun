@@ -123,31 +123,6 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/minio-dotnet/master/Docs/zh_CN/API.md
         Slug: dotnet-client-api-reference
 
-  - 完整示例: # Full Examples
-      - JavaScript Shopping App:
-        Link: https://raw.githubusercontent.com/minio/minio-js-store-app/master/README_zh_CN.md
-        Slug: javascript-shopping-app
-
-      - Java Photo API Service:
-        Link: https://raw.githubusercontent.com/minio/minio-java-rest-example/master/README_zh_CN.md
-        Slug: java-photo-api-service
-
-      - Go Music Player App:
-        Link: https://raw.githubusercontent.com/minio/minio-go-media-player/master/README_zh_CN.md
-        Slug: go-music-player-app
-
-      - Android Photo App:
-        Link: https://raw.githubusercontent.com/minio/android-photo-app/master/README_zh_CN.md
-        Slug: android-photo-app
-
-      - Swift Photo App:
-        Link: https://raw.githubusercontent.com/minio/swift-photo-app/master/README_zh_CN.md
-        Slug: swift-photo-app
-
-      - RoR Resume Uploader App:
-        Link: https://raw.githubusercontent.com/minio/ror-resumeuploader-app/master/README_zh_CN.md
-        Slug: ror-resume-uploader-app
-
   - 实战秘籍: # Cookbook
       - 使用S3cmd操作Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/zh_CN/s3cmd-with-minio.md
