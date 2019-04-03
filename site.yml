@@ -448,7 +448,7 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/README.md
         Slug: minio-deployment-quickstart-guide
         SEO Title: MinIO | MinIO Deployment Quickstart Guide
-        SEO Description: This guide covers deployment documentation for - Orchestration platforms, Docker Swarm, Docker Compose, Kubernetes, DC/OS
+        SEO Description: This guide covers deployment documentation for Orchestration platforms - Docker Swarm, Docker Compose, Kubernetes, DC/OS
         SEO Keywords: Docker Swarm, Docker Compose, Kubernetes, DC/OS
 
       - Deploy Minio on Docker Swarm:
