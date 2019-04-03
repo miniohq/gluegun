@@ -4,7 +4,7 @@ Logo: "https://min.io/resources/img/logo/MINIO_wordmark_black.png"
 SEO Author: "MinIO"
 
 Language:
-  - Chinese: /cn
+  - Chinese: /cn/
 
 Plugins:
   - Algolia:
