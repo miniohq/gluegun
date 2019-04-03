@@ -411,7 +411,7 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-dotnet-with-minio.md
         Slug: how-to-use-aws-sdk-for-net-with-minio-server
         SEO Title: MinIO | How to use AWS SDK for .NET with MinIO Server - Cookbook/Recipe
-        SEO Description: aws-sdk-dotnet is the official AWS SDK for the .NET Framework. In this recipe we will learn how to use aws-sdk-dotnet with MinIO server.
+        SEO Description: In this recipe we will learn how to use aws-sdk-dotnet, the official AWS SDK for the .NET Framework, with MinIO server.
         SEO Keywords: AWS SDK for .NET
 
       - How to use Minio's server-side-encryption with aws-cli:
