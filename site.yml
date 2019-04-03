@@ -376,7 +376,7 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-javascript-with-minio.md
         Slug: how-to-use-aws-sdk-for-javascript-with-minio-server
         SEO Title: MinIO | How to use AWS SDK for JavaScript with MinIO Server - Cookbook/Recipe
-        SEO Description: In this recipe we will learn how to use aws-sdk for JavaScript with MinIO server. aws-sdk is the official AWS SDK for the JavaScript programming language.
+        SEO Description: In this recipe we will learn how to use aws-sdk, the official AWS SDK for the JavaScript programming language, with MinIO server.
         SEO Keywords: AWS SDK for JavaScript
 
       - How to run multiple Minio servers with Træfɪk:
