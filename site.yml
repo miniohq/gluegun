@@ -21,460 +21,460 @@ Documents:
       - Minio Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/README.md
         Slug: minio-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | The MinIO Quickstart Guide
+        SEO Description: This guide covers the basics of installing and testing the Minio Server and Client
+        SEO Keywords: Minio FreeBSD, Minio Windows, Minio GNU/Linux, Minio MacOS, Minio Docker Container
 
       - Minio Docker Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/docker/README.md
         Slug: minio-docker-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn more about MinIO's Docker Implementation
+        SEO Description: The MinIO Docker Quickstart Guide offers examples, code and documentation for those using Docker to run MinIO
+        SEO Keywords: Docker, MinIO container, minio container with persistent storage, Standalone MinIO on Docker, MinIO Docker Tips, Distributed MinIO on Docker
 
       - Minio Erasure Code Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/erasure/README.md
         Slug: minio-erasure-code-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn more about MinIO's Erasure Code Implementation
+        SEO Description: The MinIO Erasure Code Quickstart Guide offers examples, code and insight on this powerful data protection approach
+        SEO Keywords: Erasure coding, inline, forward error correction, reed-solomon code, silent data corruption, RAID6, BitRot protection, healing, highway hash
 
       - Distributed Minio Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/distributed/README.md
         Slug: distributed-minio-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn more about Deploying MinIO in Distributed Mode
+        SEO Description: The MinIO Distributed Code Quickstart Guide offers examples, code and insight on how to pool multiple dives into a single object storage server
+        SEO Keywords: distributed mode, pooling drives, Consistency Guarantees
 
       - How to secure access to Minio server with TLS:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/tls/README.md
         Slug: how-to-secure-access-to-minio-server-with-tls
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to secure access to MinIO server with TLS
+        SEO Description: This guide explains how to configure MinIO Server with TLS certificates on Linux and Windows platforms.
+        SEO Keywords: TLS certificates, private key and public certificates, certificate authority, self-signed keys, OpenSSL keys, ECDSA private keys, RSA private key, GnuTLS certificates
 
       - Minio Bucket Notification Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/bucket/notifications/README.md
         Slug: minio-bucket-notification-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to use MinIO Bucket Notifications
+        SEO Description: The guide explains what events occuring on objects in buckets can be monitored using bucket event notifications
+        SEO Keywords: s3:ObjectCreated:Put, s3:ObjectCreated:CompleteMultipartUpload, s3:ObjectAccessed:Head, s3:ObjectCreated:Post, s3:ObjectRemoved:Delete, s3:ObjectCreated:Copy, s3:ObjectAccessed:Get, AMQP, RabbitMQ, RabbitMQ, Elasticsearch, Redis, NATS, postgres, mysql, Kafka, webhooks, nsq
 
       - Minio Server Limits Per Tenant:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/minio-limits.md
         Slug: minio-server-limits-per-tenant
-        SEO Title:
-        SEO Description:
+        SEO Title: MinIO | Learn how to configure your MinIO server
+        SEO Description: This guide includes code, examples and tips on how to get the most out of your MinIO server
         SEO Keywords:
 
       - Minio Server Configuration Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/config/README.md
         Slug: minio-server-configuration-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to configure your MinIO server
+        SEO Description: This guide includes code, examples and tips on how to get the most out of your MinIO server
+        SEO Keywords: server configuration files, certificate directory, storage class
 
       - Multi-tenant Minio Deployment Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/multi-tenancy/README.md
         Slug: multi-tenant-minio-deployment-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Different configurations of hosts, nodes, and drives.
+        SEO Description: This guide provides commands to set up different configurations of hosts, nodes, and drives. Can be used as a starting point for other configurations.
+        SEO Keywords: Standalone Deployment, Distributed Deployment, Cloud Scale Deployment, Multiple Tenants on a Single Drive
 
       - Minio Gateway for Azure:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/azure.md
         Slug: minio-gateway-for-azure
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to deploy MinIO with Microsoft Azure Blob Storage
+        SEO Description: This guide provides code, examples and insight into running MinIO in gateway mode in front of Microsoft's Azure Blob Storage
+        SEO Keywords: gateway mode, azure blob, microsoft azure blob storage, blob, blob storage, S3 API
 
       - Minio Gateway for GCS:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/gcs.md
         Slug: minio-gateway-for-gcs
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to deploy MinIO with Google Cloud Storage
+        SEO Description: This guide provides code, examples and insights for running MinIO in gateway mode in front of Google Cloud Storage
+        SEO Keywords: gateway mode, google cloud, minio docker GCS, S3 API
 
       - Minio Gateway for NAS:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/nas.md
         Slug: minio-gateway-for-nas
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to add Amazon S3 compatibility to NAS storage
+        SEO Description: This guide provides code, examples and insights for running MinIO in gateway mode to enable the S3 API for Network Attached Storage
+        SEO Keywords: Network Attached Storage, NAS
 
       - Minio Large Bucket Support Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/large-bucket/README.md
         Slug: minio-large-bucket-support-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to deploy large buckets with MinIO
+        SEO Description: This guide provides code, examples and insights to expand a single MinIO bucket over multiple erasure code deployment sets, creating peta-scale storage systems
+        SEO Keywords: large buckets, multiple erasure code dives, distributed minio
 
       - Minio Disk Cache Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/disk-caching/README.md
         Slug: minio-disk-cache-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to use caching to store content closer to tenants
+        SEO Description: This guide details how to use caching disks to store content close to tenants improving performance and time to first byte
+        SEO Keywords: disk caching, object serving
 
       - Minio Monitoring Guide:
         Link: https://github.com/minio/minio/blob/master/docs/metrics/README.md
         Slug: minio-monitoring-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to configure the MinIO server for monitoring
+        SEO Description: This document details how to monitor data over un-authenticated endpoints so tools can pick the data without you having to share server credentials
+        SEO Keywords: endpoints, monitoring, prometheus, healthcheck
 
       - Minio Federation Quickstart Guide:
         Link: https://github.com/minio/minio/blob/master/docs/federation/lookup/README.md
         Slug: minio-federation-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to configure the MinIO bucket lookups with DNS
+        SEO Description: This document explains how to configure MinIO with Bucket lookup from DNS style federation.
+        SEO Keywords: Federation, DNS, CoreDNS, Environment Variables, MINIO_ETCD_ENDPOINTS, MINIO_DOMAIN, MINIO_PUBLIC_IPS
 
       - Minio KMS Quickstart Guide:
         Link: https://github.com/minio/minio/blob/master/docs/kms/README.md
         Slug: minio-kms-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to configure the MinIO with Key Management Systems
+        SEO Description: This document explains how to leverage external KMS or direct KMS master keys
+        SEO Keywords: SSE-S3, external KMS, key management system, Hashicorp Vault, Direct KMS master keys, Vault Environment variables, auto-encryption
 
       - Minio Select API Quickstart Guide:
         Link: https://github.com/minio/minio/blob/master/docs/select/README.md
         Slug: minio-select-api-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to use the Select API
+        SEO Description: This document how to use the Select API to retrieve only the data needed by the application - resulting in massive performance improvements
+        SEO Keywords: S3 Select, Select API, aws_secret_access_key 
 
       - Minio Compression Guide:
         Link: https://github.com/minio/minio/blob/master/docs/compression/README.md
         Slug: minio-compression-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to employ streaming compression
+        SEO Description: MinIO server allows streaming compression to ensure efficient disk space usage. Compression happens inflight. MinIO uses golang/snappy streaming compression.
+        SEO Keywords: streaming compression, golang/snappy
 
       - Minio Multi-User Quickstart Guide:
         Link: https://github.com/minio/minio/blob/master/docs/multi-user/README.md
         Slug: minio-multi-user-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to configure MinIO for multiple long term users
+        SEO Description: This document explains how to add/remove users and modify their access rights.
+        SEO Keywords: multi-user, configure users, user permissions, canned policies
 
       - Minio STS Quickstart Guide:
         Link: https://github.com/minio/minio/blob/master/docs/sts/README.md
         Slug: minio-sts-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Learn how to configure MinIO for Security Token Service
+        SEO Description: This document explains how to configure STS endpoint services that enable clients to request temporary credentials for MinIO resources.
+        SEO Keywords: STS, endpoint services, temporary credentials, webIdentity, AssumeRole, WSO2, OPA, etcd, client grants
 
   - Minio Client:
       - Minio Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/mc/master/README.md
         Slug: minio-client-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | MinIO Client Quickstart Guide
+        SEO Description: This document explains how to use the MinIO Client as a modern alternative to UNIX commands like ls, cat, cp, mirror, diff, find etc. For filesystems + Amazon S3 compatible services
+        SEO Keywords: minio client, UNIX, docker
         
 
       - Minio Client Complete Guide:
         Link: https://raw.githubusercontent.com/minio/mc/master/docs/minio-client-complete-guide.md
         Slug: minio-client-complete-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | The complete guide to the MinIO client
+        SEO Description: This document explains in detail how to use the MinIO Client as a modern alternative to UNIX commands like ls, cat, cp, mirror, diff, find etc. For filesystems + Amazon S3 compatible services
+        SEO Keywords: UNIX commands, minio client, UNIX, docker, mc
 
       - Minio Admin Complete Guide:
         Link: https://github.com/minio/mc/blob/master/docs/minio-admin-complete-guide.md
         Slug: minio-admin-complete-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | The complete guide to the MinIO Admin functionality
+        SEO Description: This document explains in detail how to use the MinIO Client's administrative functionality including service, info, user, policy, heal
+        SEO Keywords: service, info, policy, credential, config, heal, docker stable, docker edge, mc admin
 
   - Minio SDKs:
       - JavaScript Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio-js/master/README.md
         Slug: javascript-client-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | JavaScript Client Quickstart Guide
+        SEO Description: This quickstart guide will show you how to install the client SDK and execute an example JavaScript program.
+        SEO Keywords: JavaScript, JavaScript API, npm install minio
 
       - JavaScript Client API Reference:
         Link: https://raw.githubusercontent.com/minio/minio-js/master/docs/API.md
         Slug: javascript-client-api-reference
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | JavaScript Client API Reference
+        SEO Description: This document contains the detailed example code for the JavaScript Client API
+        SEO Keywords: JavaScript Client, JavaScript API, MinIO JavaScript SDK, MinIO JavaScript Client
 
       - Java Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio-java/master/README.md
         Slug: java-client-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Java Client Quickstart Guide
+        SEO Description: The MinIO Java Client SDK provides simple APIs to access any Amazon S3 compatible object storage server.
+        SEO Keywords: Java Client SDK, MinIO Java Client SDK
 
       - Java Client API Reference:
         Link: https://raw.githubusercontent.com/minio/minio-java/master/docs/API.md
         Slug: java-client-api-reference
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Java Client API Reference
+        SEO Description: The MinIO Java Client SDK provides detailed code examples for the MinIO Java API
+        SEO Keywords: Java Client SDK, Java Client API, MinIO Java SDK, MinIO Java Client API
 
       - Python Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio-py/master/README.md
         Slug: python-client-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Python Client Quickstart Guide
+        SEO Description: The MinIO Python SDK provides simple APIs to access any Amazon S3 compatible object storage server.
+        SEO Keywords: Python SDK, Python Client API, MinIO Python SDK, MinIO Python Client API
 
       - Python Client API Reference:
         Link: https://raw.githubusercontent.com/minio/minio-py/master/docs/API.md
         Slug: python-client-api-reference
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Python Client API Reference
+        SEO Description: The MinIO Python SDK provides detailed code examples for the Python API
+        SEO Keywords: Python SDK, Python Client API, MinIO Python SDK, MinIO Python Client API
 
       - Golang Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio-go/master/README.md
         Slug: golang-client-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Golang Client Quickstart Guide
+        SEO Description: The MinIO Go Client SDK provides simple APIs to access any Amazon S3 compatible object storage server.
+        SEO Keywords: Golang, Go, MinIO Golang Client, MinIO Go Client
 
       - Golang Client API Reference:
         Link: https://raw.githubusercontent.com/minio/minio-go/master/docs/API.md
         Slug: golang-client-api-reference
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Golang Client API Reference
+        SEO Description: The MinIO Go Client API reference provides detailed code examples for the MinIO Go SDK
+        SEO Keywords: Golang, Go, MinIO Golang Client, MinIO Go Client
 
       - .NET Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio-dotnet/master/README.md
         Slug: dotnet-client-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | .NET Client Quickstart Guide
+        SEO Description: The MinIO .NET Client SDK provides simple APIs to access any Amazon S3 compatible object storage server.
+        SEO Keywords: dotnet, .NET, MinIO Dotnet Client, MinIO .NET Client, MinIO Dotnet SDK, MinIO .NET SDK
 
       - .NET Client API Reference:
         Link: https://raw.githubusercontent.com/minio/minio-dotnet/master/Docs/API.md
         Slug: dotnet-client-api-reference
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | .NET Client API Reference
+        SEO Description: The MinIO .NET Client SDK provides detailed code examples for the MinIO .NET SDK
+        SEO Keywords: dotnet, .NET
 
   - Cookbook:
       - S3cmd with Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/s3cmd-with-minio.md
         Slug: s3cmd-with-minio
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | S3cmd with MinIO - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to configure and use S3cmd to manage data with MinIO Server
+        SEO Keywords: S3cmd
 
       - AWS CLI with Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-cli-with-minio.md
         Slug: aws-cli-with-minio
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | AWS CLI with MinIO - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to configure and use AWS CLI to manage data with MinIO Server
+        SEO Keywords: AWS CLI
 
       - restic with Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/restic-with-minio.md
         Slug: restic-with-minio
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | restic with MinIO - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to use restic to backup data into MinIO Server.
+        SEO Keywords: Restic
 
       - Store MySQL Backups in Minio:
         Link: https://github.com/minio/cookbook/blob/master/docs/store-mysql-backups-in-minio.md
         Slug: store-mysql-backups-in-minio
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Store MySQL Backups in MinIO - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to store MySQL backups in MinIO Server.
+        SEO Keywords: MySQL, Backups
 
       - Store MongoDB Backups in Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/store-mongodb-backups-in-minio.md
         Slug: store-mongodb-backups-in-minio
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Store MongoDB Backups in MinIO - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to store MongoDB backups in MinIO Server.
+        SEO Keywords: MongoDB
 
       - Store PostgreSQL Backups in Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/store-postgresql-backups-in-minio.md
         Slug: store-postgresql-backups-in-minio
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Store PostgreSQL Backups in MinIO - Cookbook/Recipe
+        SEO Description: In this recipe you will learn how to store PostgreSQL backups in MinIO Server.
+        SEO Keywords: PostgresSQL
 
       - Setup Caddy proxy with Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/setup-caddy-proxy-with-minio.md
         Slug: setup-caddy-proxy-with-minio
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Setup Caddy proxy with MinIO - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to set up Caddy proxy with MinIO Server.
+        SEO Keywords: Caddy proxy
 
       - Setup Nginx proxy with Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/setup-nginx-proxy-with-minio.md
         Slug: setup-nginx-proxy-with-minio
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Setup Nginx proxy with MinIO - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to set up Nginx proxy with MinIO Server.
+        SEO Keywords: Nginx proxy
 
       - Store Apache Logs into Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aggregate-apache-logs-with-fluentd-and-minio.md
         Slug: aggregate-apache-logs-with-fluentd-and-minio
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Store Apache Logs into MinIO - Cookbook/Recipe
+        SEO Description: In this recipe, we will learn how to use MinIO as log aggregator for fluentd using fluent-plugin-s3 plugin.
+        SEO Keywords: Apache
 
       - Rclone with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/rclone-with-minio.md
         Slug: rclone-with-minio-server
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Rclone with MinIO Server- Cookbook/Recipe
+        SEO Description: This recipe describes how to use rclone with MinIO Server.
+        SEO Keywords: Rclone
 
       - Setup Apache HTTP proxy with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/setup-apache-http-proxy-with-minio.md
         Slug: setup-apache-http-proxy-with-minio-server
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Setup Apache HTTP proxy with MinIO Server - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to set up Apache HTTP with mod_proxy module for connecting to MinIO Server. We are going to set up a new VirtualHost for example.com
+        SEO Keywords: Apache HTTP
 
       - Upload files from browser using pre-signed URLs:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/presigned-put-upload-via-browser.md
         Slug: upload-files-from-browser-using-pre-signed-urls
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Upload files from browser using pre-signed URLs - Cookbook/Recipe
+        SEO Description: This guide describes how to use the presigned PutObject API from the MinIO JavaScript Library to generate a pre-signed URL.
+        SEO Keywords: pre-signed URLs
 
       - How to run Minio in FreeNAS?:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/running-minio-in-freenas.md
         Slug: how-to-run-minio-in-freenas
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | How to run MinIO in FreeNAS? - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to run MinIO with FreeNAS.
+        SEO Keywords: FreeNAS
 
       - How to use AWS SDK for PHP with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-php-with-minio.md
         Slug: how-to-use-aws-sdk-for-php-with-minio-server
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | How to use AWS SDK for PHP with MinIO Server - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to use aws-sdk-php, the official AWS SDK for the PHP programming language, with MinIO server.
+        SEO Keywords: AWS SDK for PHP
 
       - How to use AWS SDK for Ruby with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-ruby-with-minio.md
         Slug: how-to-use-aws-sdk-for-ruby-with-minio-server
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | How to use AWS SDK for Ruby with MinIO Server - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to use aws-sdk, the official AWS SDK for the Ruby programming language, with MinIO server
+        SEO Keywords: AWS SDK for Ruby, AWS SDK for Ruby on Rails
 
       - How to use AWS SDK for Python with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-python-with-minio.md
         Slug: how-to-use-aws-sdk-for-python-with-minio-server
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | How to use AWS SDK for Python with MinIO Server - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to use aws-sdk-python, the official AWS SDK for the Python programming language, with MinIO server.
+        SEO Keywords: AWS SDK for Python
 
       - How to use AWS SDK for JavaScript with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-javascript-with-minio.md
         Slug: how-to-use-aws-sdk-for-javascript-with-minio-server
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | How to use AWS SDK for JavaScript with MinIO Server - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to use aws-sdk, the official AWS SDK for the JavaScript programming language, with MinIO server.
+        SEO Keywords: AWS SDK for JavaScript
 
       - How to run multiple Minio servers with Træfɪk:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/multiple-minio-servers-with-traefik.md
         Slug: how-to-run-multiple-minio-servers-with-traef-k
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | How to run multiple MinIO servers with Træfɪk - Cookbook/Recipe
+        SEO Description: This cookbook will explain how you can setup multiple MinIO instances via Docker which you can access on different subdomains through Træfɪk.
+        SEO Keywords: Træfɪk, reverse proxy, golang
 
       - How to use AWS SDK for Go with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-go-with-minio.md
         Slug: how-to-use-aws-sdk-for-go-with-minio-server
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | How to use AWS SDK for Go with MinIO Server - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to use aws-sdk-go, the official AWS SDK for the Go programming language, with MinIO server
+        SEO Keywords: AWS SDK for Go, Golang
 
       - How to use AWS SDK for Java with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-java-with-minio.md
         Slug: how-to-use-aws-sdk-for-java-with-minio-server
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | How to use AWS SDK for Java with MinIO Server - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to use aws-sdk-java, the official AWS SDK for the Java programming language, with MinIO server
+        SEO Keywords: AWS SDK for Java 
 
       - How to use Paperclip with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/how-to-use-paperclip-with-minio.md
         Slug: how-to-use-paperclip-with-minio-server
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | How to use Paperclip with MinIO Server - Cookbook/Recipe
+        SEO Description: Paperclip is intended as an easy file attachment library for ActiveRecord. In this recipe you will learn how to configure MinIO as an object storage backend for Paperclip.
+        SEO Keywords: Paperclip, ActiveRecord
 
       - How to use AWS SDK for .NET with Minio Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-dotnet-with-minio.md
         Slug: how-to-use-aws-sdk-for-net-with-minio-server
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | How to use AWS SDK for .NET with MinIO Server - Cookbook/Recipe
+        SEO Description: In this recipe we will learn how to use aws-sdk-dotnet, the official AWS SDK for the .NET Framework, with MinIO server.
+        SEO Keywords: AWS SDK for .NET
 
       - How to use Minio's server-side-encryption with aws-cli:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/how-to-use-minio-server-side-encryption-with-aws-cli.md
         Slug: how-to-use-minio-s-server-side-encryption-with-aws-cli
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | How to use MinIO's server-side-encryption with aws-cli - Cookbook/Recipe
+        SEO Description: MinIO supports S3 server-side-encryption with customer provided keys (SSE-C), this describes the use of server-side encryption with AWS Command Line Interface (aws-cli)
+        SEO Keywords: aws-cli, server side encryption
 
       - How to monitor Minio using Prometheus:
         Link: https://github.com/minio/cookbook/blob/master/docs/how-to-monitor-minio-with-prometheus.md
         Slug: how-to-monitor-minio-using-prometheus
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | How to monitor MinIO using Prometheus - Cookbook/Recipe
+        SEO Description: This document explains how to setup Prometheus and configure it to scrape data from MinIO servers.
+        SEO Keywords: Prometheus
 
   - Related Projects:
       - Generate Let's Encrypt certificate using Certbot for Minio:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/generate-lets-encypt-certificate-using-certbot-for-minio.md
         Slug: generate-let-s-encypt-certificate-using-concert-for-minio
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Using the Let's Encrypt Certbot with Minio
+        SEO Description: In this recipe, we will generate a Let's Encrypt certificate using Certbot. This certificate will then be deployed for use in the Minio server.
+        SEO Keywords: Let's Encrypt, Certbot, Certificate Authority
 
       - How to install Golang?:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/how-to-install-golang.md
         Slug: how-to-install-golang
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Installing Golang
+        SEO Description: The guide covers the basics of installing Golang
+        SEO Keywords: Golang
 
   - Minio Deployment:
       - Minio Deployment Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/README.md
         Slug: minio-deployment-quickstart-guide
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | MinIO Deployment Quickstart Guide
+        SEO Description: This guide covers deployment documentation for Orchestration platforms - Docker Swarm, Docker Compose, Kubernetes, DC/OS
+        SEO Keywords: Docker Swarm, Docker Compose, Kubernetes, DC/OS
 
       - Deploy Minio on Docker Swarm:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/docker-swarm/README.md
         Slug: deploy-minio-on-docker-swarm
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Deploy MinIO on Docker Swarm
+        SEO Description: This guide covers how MinIO server can be easily deployed in distributed mode on Swarm to create a multi-tenant, highly-available and scalable object store.
+        SEO Keywords: Docker Swarm, Docker Compose
 
       - Deploy Minio on Kubernetes:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/kubernetes/README.md
         Slug: deploy-minio-on-kubernetes
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Deploy MinIO on Kubernetes
+        SEO Description: This guide documents the multiple options to deploy MinIO on Kubernetes. Concepts like Deployments and StatefulSets MinIO in standalone, distributed or gateway mode.
+        SEO Keywords: kubernetes, statefulsets, helm chart repository
 
       - Deploy Minio on DC/OS:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/dcos/README.md
         Slug: deploy-minio-on-dc-os
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Deploy MinIO on DC/OS
+        SEO Description: This guide documents the deployment of MinIO on DC/OS
+        SEO Keywords: DC/OS, Marathon-LB
 
       - Deploy Minio on Docker Compose:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/docker-compose/README.md
         Slug: deploy-minio-on-docker-compose
-        SEO Title:
-        SEO Description:
-        SEO Keywords:
+        SEO Title: MinIO | Deploy MinIO on Docker Compose
+        SEO Description: This guide covers deployment of MinIO using Docker Compose. Compose allows defining and running single host, multi-container Docker applications.
+        SEO Keywords: Docker compose, distributed minio, single host, multi-container
