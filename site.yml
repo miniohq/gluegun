@@ -222,7 +222,7 @@ Documents:
         Slug: python-client-quickstart-guide
         SEO Title: MinIO | Python Client Quickstart Guide
         SEO Description: The MinIO Python SDK provides simple APIs to access any Amazon S3 compatible object storage server.
-        SEO Keywords: Python SDK, Python Client API
+        SEO Keywords: Python SDK, Python Client API, MinIO Python SDK, MinIO Python Client API
 
       - Python Client API Reference:
         Link: https://raw.githubusercontent.com/minio/minio-py/master/docs/API.md
@@ -236,7 +236,7 @@ Documents:
         Slug: golang-client-quickstart-guide
         SEO Title: MinIO | Golang Client Quickstart Guide
         SEO Description: The MinIO Go Client SDK provides simple APIs to access any Amazon S3 compatible object storage server.
-        SEO Keywords: Golang, Go
+        SEO Keywords: Golang, Go, MinIO Golang Client, MinIO Go Client
 
       - Golang Client API Reference:
         Link: https://raw.githubusercontent.com/minio/minio-go/master/docs/API.md
