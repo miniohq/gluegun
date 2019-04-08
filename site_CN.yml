@@ -1,6 +1,8 @@
 Site: "MinIO Docs"
 Output: "cn"
-Logo: "https://min.io/resources/img/logo/MINIO_wordmark.png"
+Logo: 
+  Image: "https://min.io/resources/img/logo/MINIO_wordmark.png"
+  Link: "https://min.io"
 
 Language:
   - English: /

@@ -1,6 +1,8 @@
 Site: "MinIO Docs"
 Output: "docs"
-Logo: "https://min.io/resources/img/logo/MINIO_wordmark.png"
+Logo: 
+  Image: "https://min.io/resources/img/logo/MINIO_wordmark.png"
+  Link: "https://min.io"
 SEO Author: "MinIO"
 
 Language:
