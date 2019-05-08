@@ -1,6 +1,6 @@
 Site: "MinIO Docs"
 Output: "docs"
-Logo: 
+Logo:
   Image: "https://min.io/resources/img/logo/MINIO_wordmark.png"
   Link: "https://min.io"
 SEO Author: "MinIO"
@@ -145,7 +145,7 @@ Documents:
         Slug: minio-select-api-quickstart-guide
         SEO Title: MinIO | Learn how to use the Select API
         SEO Description: This document how to use the Select API to retrieve only the data needed by the application - resulting in massive performance improvements
-        SEO Keywords: S3 Select, Select API, aws_secret_access_key 
+        SEO Keywords: S3 Select, Select API, aws_secret_access_key
 
       - MinIO Compression Guide:
         Link: https://github.com/minio/minio/blob/master/docs/compression/README.md
@@ -175,7 +175,6 @@ Documents:
         SEO Title: MinIO | MinIO Client Quickstart Guide
         SEO Description: This document explains how to use the MinIO Client as a modern alternative to UNIX commands like ls, cat, cp, mirror, diff, find etc. For filesystems + Amazon S3 compatible services
         SEO Keywords: minio client, UNIX, docker
-        
 
       - MinIO Client Complete Guide:
         Link: https://raw.githubusercontent.com/minio/mc/master/docs/minio-client-complete-guide.md
@@ -261,6 +260,20 @@ Documents:
         SEO Title: MinIO | .NET Client API Reference
         SEO Description: The MinIO .NET Client SDK provides detailed code examples for the MinIO .NET SDK
         SEO Keywords: dotnet, .NET
+
+      - Haskell Client Quickstart Guide:
+        Link: https://raw.githubusercontent.com/minio/minio-hs/master/README.md
+        Slug: haskell-client-quickstart-guide
+        SEO Title: MinIO | Haskell Client Quickstart Guide
+        SEO Description: The MinIO Haskell Client SDK provides simple APIs to access any Amazon S3 compatible object storage server.
+        SEO Keywords: Haskell, MinIO Haskell Client, MinIO Haskell SDK
+
+      - Haskell Client API Reference:
+        Link: https://raw.githubusercontent.com/minio/minio-hs/master/docs/API.md
+        Slug: haskell-client-api-reference
+        SEO Title: MinIO | Haskell Client Quickstart Guide
+        SEO Description: The MinIO Haskell Client SDK provides detailed code examples for the MinIO Haskell SDK
+        SEO Keywords: Haskell, MinIO Haskell Client, MinIO Haskell SDK, Haskell API Reference Guide
 
   - Cookbook:
       - S3cmd with MinIO:
@@ -401,7 +414,7 @@ Documents:
         Slug: how-to-use-aws-sdk-for-java-with-minio-server
         SEO Title: MinIO | How to use AWS SDK for Java with MinIO Server - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to use aws-sdk-java, the official AWS SDK for the Java programming language, with MinIO server
-        SEO Keywords: AWS SDK for Java 
+        SEO Keywords: AWS SDK for Java
 
       - How to use Paperclip with MinIO Server:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/how-to-use-paperclip-with-minio.md
