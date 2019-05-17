@@ -107,6 +107,12 @@
         <%- elsif categories.key?("HubSpot") && !categories["HubSpot"].nil? -%>
           <!-- HubSpot -->
           <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/<%= categories["HubSpot"] %>.js"></script>
+        <%- elsif categories.key?("Lead Forensics") && !categories["Lead Forensics"].nil? -%>
+          <!-- Lead Forensics -->
+          <script type="text/javascript" src="https://secure.perk0mean.com/js/<%= categories["Lead Forensics"] %>.js" ></script>
+          <noscript>
+              <img alt="" src="https://secure.perk0mean.com/<%= categories["Lead Forensics"] %>.png" style="display:none;" />
+          </noscript>
         <%- end -%>
       <%- end -%>
     <%- end -%>

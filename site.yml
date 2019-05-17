@@ -15,6 +15,7 @@ Plugins:
       tag: "en"
   - Google Analytics: "UA-56860620-7"
   - HubSpot: "5728672"
+  - Lead Forensics: "170286"
   - Footer Widget:
       Label: "Talk to community"
       Link: "https://slack.minio.io"
