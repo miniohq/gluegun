@@ -197,5 +197,34 @@ module Gluegun
       FileUtils.cp_r(src, dst)
     end
 
+    def self.link_is_translated(slug)
+      if @site_map['Output'] === 'docs'
+        return is_link_valid("https://docs.min.io/cn/" + slug)
+      elsif @site_map['Output'] === 'cn'
+        # All Chinese docs have English translations, so we can return true
+        return true
+      else
+        return false
+      end
+    end
+
+    def self.is_link_valid(link)
+      begin
+        uri = URI.parse(link)
+        req = Net::HTTP.new(uri.host, uri.port)
+        if uri.scheme == "https"
+          req.use_ssl = true
+        end
+        res = req.request_head(uri.path)
+        if res.code === "200"
+          return true
+        else
+          return false
+        end
+      rescue => e
+        return false
+      end
+    end
+
   end
 end

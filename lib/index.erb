@@ -22,6 +22,28 @@
       <%- end -%>
       <meta name="description" content="<%= key2["SEO Description"] %>">
       <meta name="keywords" content="<%= key2["SEO Keywords"] %>">
+      <%-# generate link tags with hreflang attribute for all pages excluding index -%>
+      <%- if link_is_translated(key2['Slug']) -%>
+        <link
+          rel="alternate"
+          hreflang="en"
+          href="https://docs.min.io/docs/<%= key2['Slug'] %>"
+          title="lang"
+        >
+        <link
+          rel="alternate"
+          hreflang="zh"
+          href="https://docs.min.io/cn/<%= key2['Slug'] %>"
+          title="lang"
+        >
+      <%- elsif @site_map['Output'] === "docs" -%>
+        <link
+          rel="alternate"
+          hreflang="en"
+          href="https://docs.min.io/docs/<%= key2['Slug'] %>"
+          title="lang"
+        >
+      <%- end -%>
     <%- else -%>
       <%-# Take first entry specified under the 'Documents' key for index page-%>
       <%- if !@site_map['Documents'][0].values[0][0]["SEO Title"] -%>
@@ -37,6 +59,28 @@
         <%- @site_map['Documents'][0].values[0][0]["Slug"] = get_slug(@site_map['Documents'][0].values[0][0]) -%>
       <%- end -%>
       <link rel="canonical" href="/<%=@site_map['Output']%>/<%=@site_map['Documents'][0].values[0][0]["Slug"]%>.html" />
+      <%-# generate link tags with hreflang attribute for index page -%>
+      <%- if link_is_translated(@site_map['Documents'][0].values[0][0]["Slug"]) -%>
+        <link
+          rel="alternate"
+          hreflang="en"
+          href="https://docs.min.io/docs/<%= @site_map['Documents'][0].values[0][0]["Slug"] %>"
+          title="lang"
+        >
+        <link
+          rel="alternate"
+          hreflang="zh"
+          href="https://docs.min.io/cn/<%= @site_map['Documents'][0].values[0][0]["Slug"] %>"
+          title="lang"
+        >
+      <%- elsif @site_map['Output'] === "docs" -%>
+        <link
+          rel="alternate"
+          hreflang="en"
+          href="https://docs.min.io/docs/<%= @site_map['Documents'][0].values[0][0]["Slug"] %>"
+          title="lang"
+        >
+      <%- end -%>
     <%- end -%>
 
     <link href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" rel="stylesheet">
