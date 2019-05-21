@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<%- if @site_map['Output'] === "docs" -%>
+  <html lang="en">
+<%- elsif @site_map['Output'] === "cn" -%>
+  <html lang="zh">
+<%- end -%>
 <html>
   <head>
     <meta charset="utf-8">
