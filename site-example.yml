@@ -8,8 +8,9 @@ Logo:                                                                   # Option
 SEO Author: "Author Name"                                               # Optional - Meta author tag for SEO
 
 Language:                                                               # Optional - Translation links
-  - Chinese: https://<domain.com>/cn
-  - Japanese: https://<domain.com>/jp
+  - English: "/"                                                        # Optional - Language of the content by default is english.
+  - Chinese: "/cn"                                                      # Indicate language attribute of translated versions of the site.
+  - Japanese: "https://<domain.com>/jp"
 
 Plugins:                                                                # Optional - Plugins  (Algolia for search and Google Analytics)
   - Algolia:
