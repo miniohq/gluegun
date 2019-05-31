@@ -50,6 +50,13 @@ Documents:
         SEO Description: The MinIO Distributed Code Quickstart Guide offers examples, code and insight on how to pool multiple dives into a single object storage server
         SEO Keywords: distributed mode, pooling drives, Consistency Guarantees
 
+      - Disaggregated Spark and Hadoop Hive with MinIO:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/bigdata/README.md
+        Slug: disaggregated-spark-and-hadoop-hive-with-minio
+        SEO Title: MinIO | Learn more about disaggregated Spark and Hadoop Hive with MinIO
+        SEO Description: This document describes how to disaggregate storage from compute in any Spark or Hive deployment using MinIO
+        SEO Keywords: distributed mode, Hive, Hadoop, Spark, Hortonworks, Cloudera, MapR
+
       - How to secure access to MinIO server with TLS:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/tls/README.md
         Slug: how-to-secure-access-to-minio-server-with-tls
