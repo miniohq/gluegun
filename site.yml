@@ -13,7 +13,7 @@ Plugins:
       apiKey: "0ba0d26da4d1483f96c03fe508304a64"
       index: "minio"
       tag: "en"
-  - Google Analytics: "UA-56860620-7"
+  - Google Analytics: "UA-56860620-1"
   - HubSpot: "5728672"
   - Lead Forensics: "170286"
   - Footer Widget:
