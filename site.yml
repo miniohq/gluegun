@@ -14,7 +14,6 @@ Plugins:
       index: "minio"
       tag: "en"
   - Google Analytics: "UA-56860620-1"
-  - HubSpot: "5728672"
   - LeadFeeder: "lftracker_v1_DzLR5a5kKJA7BoQ2"
   - Footer Widget:
       Label: "Talk to community"
