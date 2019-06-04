@@ -107,6 +107,22 @@
         <%- elsif categories.key?("HubSpot") && !categories["HubSpot"].nil? -%>
           <!-- HubSpot -->
           <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/<%= categories["HubSpot"] %>.js"></script>
+        <%- elsif categories.key?("LeadFeeder") && !categories["LeadFeeder"].nil? -%>
+          <!-- LeadFeeder -->
+          <script>
+            (function(){
+              window.ldfdr = window.ldfdr || {};
+              (function(d, s, ss, fs){
+                fs = d.getElementsByTagName(s)[0];
+                function ce(src){
+                  var cs  = d.createElement(s);
+                  cs.src = src;
+                  setTimeout(function(){fs.parentNode.insertBefore(cs,fs)}, 1);
+                }
+                ce(ss);
+              })(document, 'script', 'https://lftracker.leadfeeder.com/<%= categories["LeadFeeder"] %>.js');
+            })();
+          </script>
         <%- end -%>
       <%- end -%>
     <%- end -%>
