@@ -67,10 +67,6 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/gateway/nas.md
         Slug: minio-gateway-for-nas
 
-      - MinIO超大存储桶快速入门:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/large-bucket/README.md
-        Slug: minio-large-bucket-support-quickstart-guide
-
       - MinIO磁盘缓存指南:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/disk-caching/README.md
         Slug: minio-disk-cache-guide

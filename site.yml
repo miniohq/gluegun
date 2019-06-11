@@ -112,13 +112,6 @@ Documents:
         SEO Description: This guide provides code, examples and insights for running MinIO in gateway mode to enable the S3 API for Network Attached Storage
         SEO Keywords: Network Attached Storage, NAS
 
-      - MinIO Large Bucket Support Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/large-bucket/README.md
-        Slug: minio-large-bucket-support-quickstart-guide
-        SEO Title: MinIO | Learn how to deploy large buckets with MinIO
-        SEO Description: This guide provides code, examples and insights to expand a single MinIO bucket over multiple erasure code deployment sets, creating peta-scale storage systems
-        SEO Keywords: large buckets, multiple erasure code dives, distributed minio
-
       - MinIO Disk Cache Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/disk-caching/README.md
         Slug: minio-disk-cache-guide
