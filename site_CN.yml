@@ -14,7 +14,7 @@ Plugins:
       tag: "cn"
   - Google Analytics: "UA-56860620-1"
   - Footer Widget:
-      Label: "Talk to community"
+      Label: "Talk to the community"
       Link: "https://slack.minio.io"
 
 Documents:
