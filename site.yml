@@ -168,6 +168,14 @@ Documents:
         SEO Description: This document explains how to configure STS endpoint services that enable clients to request temporary credentials for MinIO resources.
         SEO Keywords: STS, endpoint services, temporary credentials, webIdentity, AssumeRole, WSO2, OPA, etcd, client grants
 
+      - MinIO HDFS Gateway Quickstart Guide:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/hdfs.md
+        Slug: minio-hdfs-gateway-quickstart-guide
+        SEO Title: MinIO | Learn how MinIO adds Amazon S3 API support to Hadoop HDFS filesystem.
+        SEO Description: This document explains how to configure MinIO on Hadoop HDFS filesystem so that HDFS supports Amazon S3 API.
+        SEO Keywords: Hadoop, HDFS, gateway, S3, HDFS S3
+        Options: hidden
+
   - MinIO Client:
       - MinIO Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/mc/master/README.md
@@ -443,6 +451,7 @@ Documents:
         SEO Title: MinIO | How to monitor MinIO using Prometheus - Cookbook/Recipe
         SEO Description: This document explains how to setup Prometheus and configure it to scrape data from MinIO servers.
         SEO Keywords: Prometheus
+      
 
   - Related Projects:
       - Generate Let's Encrypt certificate using Certbot for MinIO:
