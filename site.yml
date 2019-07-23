@@ -452,22 +452,6 @@ Documents:
         SEO Description: This document explains how to setup Prometheus and configure it to scrape data from MinIO servers.
         SEO Keywords: Prometheus
       
-
-  - Related Projects:
-      - Generate Let's Encrypt certificate using Certbot for MinIO:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/generate-lets-encypt-certificate-using-certbot-for-minio.md
-        Slug: generate-let-s-encypt-certificate-using-concert-for-minio
-        SEO Title: MinIO | Using the Let's Encrypt Certbot with MinIO
-        SEO Description: In this recipe, we will generate a Let's Encrypt certificate using Certbot. This certificate will then be deployed for use in the MinIO server.
-        SEO Keywords: Let's Encrypt, Certbot, Certificate Authority
-
-      - How to install Golang?:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/how-to-install-golang.md
-        Slug: how-to-install-golang
-        SEO Title: MinIO | Installing Golang
-        SEO Description: The guide covers the basics of installing Golang
-        SEO Keywords: Golang
-
   - MinIO Deployment:
       - MinIO Deployment Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/README.md

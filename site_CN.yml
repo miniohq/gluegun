@@ -226,15 +226,6 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/zh_CN/how-to-use-minio-server-side-encryption-with-aws-cli.md
         Slug: how-to-use-minio-s-server-side-encryption-with-aws-cli
 
-  - 相关项目: # Related Projects
-      - 使用Certbot生成Let's Encrypt证书:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/zh_CN/generate-lets-encypt-certificate-using-certbot-for-minio.md
-        Slug: generate-let-s-encypt-certificate-using-concert-for-minio
-
-      - 如何安装Golang?:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/zh_CN/how-to-install-golang.md
-        Slug: how-to-install-golang
-
   - MinIO部署: # MinIO Deployment
       - MinIO部署快速入门:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/README.md
