@@ -15,7 +15,7 @@ server {
 
     # Add index.php to the list if you are using PHP
     index index.html index.htm index.nginx-debian.html;
-    server_name gluegun.minio.io; # managed by Certbot
+    server_name gluegun.min.io; # managed by Certbot
 
     error_page 404 /docs/404.html;
 
@@ -38,15 +38,15 @@ server {
 
     listen [::]:443 ssl ipv6only=on; # managed by Certbot
     listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/gluegun.minio.io/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/gluegun.minio.io/privkey.pem; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/gluegun.min.io/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/gluegun.min.io/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
 }
 
 server {
-    if ($host = gluegun.minio.io) {
+    if ($host = gluegun.min.io) {
 	return 301 https://$host$request_uri;
     }
     # managed by Certbot
@@ -54,7 +54,7 @@ server {
 
     listen 80 ;
     listen [::]:80 ;
-    server_name gluegun.minio.io;
+    server_name gluegun.min.io;
     return 404; # managed by Certbot
 
 

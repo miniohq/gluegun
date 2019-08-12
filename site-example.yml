@@ -30,15 +30,15 @@ Documents:                                                              # Requir
 
 # Full Example Shown Below
 
-# Site: "Minio Docs"                                                    # Required - Title of Site
+# Site: "MinIO Docs"                                                    # Required - Title of Site
 # Output: "docs"                                                        # Required - Output directory where html files are generated
 # Logo:                                                                 # Optional - Site Branding
 #   Image: "https://min.io/resources/img/logo/MINIO_wordmark_black.png" # Optional - Image for logo
 #   Link: "https://min.io"                                              # Optional - URL to navigate to when logo is clicked.
 
 # Language:                                                             # Optional - Translation links
-#   - Chinese: https://docs.minio.io/cn
-#   - Japanese: https://docs.minio.io/jp
+#   - Chinese: https://docs.min.io/cn
+#   - Japanese: https://docs.min.io/jp
 
 # Plugins:                                                              # Optional - Plugins
 #   - Algolia:
@@ -47,37 +47,37 @@ Documents:                                                              # Requir
 #   - Google Analytics: "UA-xxxxxxx-Y"
 
 # Documents:                                                            # Required - Documents with links to generate site
-#   - Minio Server:                                                     # Required- Category Name
-#       - Minio Server Quick Start Guide:                               # Required - Document Title
+#   - MinIO Server:                                                     # Required- Category Name
+#       - MinIO Server Quick Start Guide:                               # Required - Document Title
 #         Link: https://github.com/minio/minio/blob/master/README.md    # Required - Document Link
 #         Slug: minio-server-quick-start-guide                          # Optional - Document Slug
 
-#       - Minio Docker Quick Start Guide:
+#       - MinIO Docker Quick Start Guide:
 #         Link: https://github.com/minio/minio/blob/master/docs/docker/README.md
 #         Slug: minio-docker-quick-start-guide
 
-#       - Minio Gateway Guide:
+#       - MinIO Gateway Guide:
 #         Link: https://github.com/minio/minio/blob/master/docs/gateway/README.md
 #         Slug: minio-gateway-guide
 
-#   - Minio Client:
-#       - Minio Client Quick Start Guide:
+#   - MinIO Client:
+#       - MinIO Client Quick Start Guide:
 #         Link: https://raw.githubusercontent.com/minio/mc/master/README.md
 
-#       - Minio Client Complete Guide:
+#       - MinIO Client Complete Guide:
 #         Link: https://raw.githubusercontent.com/minio/mc/master/docs/minio-client-complete-guide.md
 #         Slug: minio-client-complete-guide
 
-#   - Minio SDKs:
+#   - MinIO SDKs:
 #       - JavaScript Client Quickstart Guide:
 #         Link: https://raw.githubusercontent.com/minio/minio-js/master/README.md
 
 #       - JavaScript Client API Referece:
 #         Link: https://raw.githubusercontent.com/minio/minio-js/master/docs/API.md
 
-#   - Minio Cookbook:
-#       - Minio Limitations:
+#   - MinIO Cookbook:
+#       - MinIO Limitations:
 #         Link: https://github.com/minio/minio/blob/master/docs/minio-limitations.md
 
-#       - Minio FreeBSD Quickstart Guide:
+#       - MinIO FreeBSD Quickstart Guide:
 #         Link: https://github.com/minio/minio/blob/master/docs/FreeBSD.md

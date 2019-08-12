@@ -15,7 +15,7 @@ Plugins:
   - Google Analytics: "UA-56860620-1"
   - Footer Widget:
       Label: "Talk to the community"
-      Link: "https://slack.minio.io"
+      Link: "https://slack.min.io"
 
 Documents:
   - MinIO服务器: # MinIO Server
