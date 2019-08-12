@@ -451,7 +451,14 @@ Documents:
         SEO Title: MinIO | How to monitor MinIO using Prometheus - Cookbook/Recipe
         SEO Description: This document explains how to setup Prometheus and configure it to scrape data from MinIO servers.
         SEO Keywords: Prometheus
-      
+
+      - Generate Let's Encrypt certificate using Certbot for Minio:
+        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/generate-lets-encypt-certificate-using-certbot-for-minio.md
+        Slug: generate-let-s-encypt-certificate-using-concert-for-minio
+        SEO Title: MinIO | How to generate Let's Encrypt certificate using Certbot - Cookbook/Recipe
+        SEO Description: In this recipe, we will generate a Let's Encrypt certificate using Certbot. This certificate will then be deployed for use in the Minio server.
+        SEO Keywords: Let's Encrypt, Certbot, Certificate Authority
+
   - MinIO Deployment:
       - MinIO Deployment Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/README.md
