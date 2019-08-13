@@ -6,8 +6,8 @@ require "gluegun/version"
 Gem::Specification.new do |spec|
   spec.name          = "gluegun"
   spec.version       = Gluegun::VERSION
-  spec.authors       = ["minio"]
-  spec.email         = ["sysadmin@minio.io"]
+  spec.authors       = ["MinIO"]
+  spec.email         = ["dev@min.io"]
   spec.license       = "Apache-2.0"
   spec.summary       = %q{Gluegun is glues markdown docs from github and creates a beautiful docs site.}
   spec.description   = %q{Gluegun is glues markdown docs from github and pulls together a beautiful docs site. }
@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
 
   spec.post_install_message = %q{
     Generate sites using:  `./gluegun generate site.yml`
-    For more details see https://gluegun.minio.io
+    For more details see https://gluegun.min.io
   }
 
   spec.add_development_dependency "bundler", "~> 1.15"

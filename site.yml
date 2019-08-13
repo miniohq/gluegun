@@ -17,7 +17,7 @@ Plugins:
   - LeadFeeder: "lftracker_v1_DzLR5a5kKJA7BoQ2"
   - Footer Widget:
       Label: "Talk to the community"
-      Link: "https://slack.minio.io"
+      Link: "https://slack.min.io"
 
 Documents:
   - MinIO Server:
@@ -452,11 +452,11 @@ Documents:
         SEO Description: This document explains how to setup Prometheus and configure it to scrape data from MinIO servers.
         SEO Keywords: Prometheus
 
-      - Generate Let's Encrypt certificate using Certbot for Minio:
+      - Generate Let's Encrypt certificate using Certbot for MinIO:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/generate-lets-encypt-certificate-using-certbot-for-minio.md
         Slug: generate-let-s-encypt-certificate-using-concert-for-minio
         SEO Title: MinIO | How to generate Let's Encrypt certificate using Certbot - Cookbook/Recipe
-        SEO Description: In this recipe, we will generate a Let's Encrypt certificate using Certbot. This certificate will then be deployed for use in the Minio server.
+        SEO Description: In this recipe, we will generate a Let's Encrypt certificate using Certbot. This certificate will then be deployed for use in the MinIO server.
         SEO Keywords: Let's Encrypt, Certbot, Certificate Authority
 
   - MinIO Deployment:
