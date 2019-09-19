@@ -1,6 +1,6 @@
 Site: "MinIO Docs"
 Output: "cn"
-Logo: 
+Logo:
   Image: "https://min.io/resources/img/logo/MINIO_wordmark.png"
   Link: "https://min.io"
 
@@ -70,6 +70,23 @@ Documents:
       - MinIO磁盘缓存指南:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/disk-caching/README.md
         Slug: minio-disk-cache-guide
+
+  - MinIO部署: # MinIO Deployment
+      - MinIO部署快速入门:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/README.md
+        Slug: minio-deployment-quickstart-guide
+
+      - 使用Docker Swarm部署MinIO:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/docker-swarm/README.md
+        Slug: deploy-minio-on-docker-swarm
+
+      - 使用Kubernetes部署MinIO:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/kubernetes/README.md
+        Slug: deploy-minio-on-kubernetes
+
+      - 使用Docker Compose部署MinIO:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/docker-compose/README.md
+        Slug: deploy-minio-on-docker-compose
 
   - MinIO客户端: # MinIO Client
       - MinIO客户端快速入门指南:
@@ -225,24 +242,3 @@ Documents:
       - 如何使用aws-cli调用MinIO服务端加密:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/zh_CN/how-to-use-minio-server-side-encryption-with-aws-cli.md
         Slug: how-to-use-minio-s-server-side-encryption-with-aws-cli
-
-  - MinIO部署: # MinIO Deployment
-      - MinIO部署快速入门:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/README.md
-        Slug: minio-deployment-quickstart-guide
-
-      - 使用Docker Swarm部署MinIO:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/docker-swarm/README.md
-        Slug: deploy-minio-on-docker-swarm
-
-      - 使用Kubernetes部署MinIO:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/kubernetes/README.md
-        Slug: deploy-minio-on-kubernetes
-
-      - 在 DC/OS上部署MinIO:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/dcos/README.md
-        Slug: deploy-minio-on-dc-os
-
-      - 使用Docker Compose部署MinIO:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/docker-compose/README.md
-        Slug: deploy-minio-on-docker-compose

@@ -176,6 +176,35 @@ Documents:
         SEO Keywords: Hadoop, HDFS, gateway, S3, HDFS S3
         Options: hidden
 
+  - MinIO Deployment:
+      - MinIO Deployment Quickstart Guide:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/README.md
+        Slug: minio-deployment-quickstart-guide
+        SEO Title: MinIO | MinIO Deployment Quickstart Guide
+        SEO Description: This guide covers deployment documentation for Orchestration platforms - Docker Swarm, Docker Compose, Kubernetes, DC/OS
+        SEO Keywords: Docker Swarm, Docker Compose, Kubernetes, DC/OS
+
+      - Deploy MinIO on Docker Swarm:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/docker-swarm/README.md
+        Slug: deploy-minio-on-docker-swarm
+        SEO Title: MinIO | Deploy MinIO on Docker Swarm
+        SEO Description: This guide covers how MinIO server can be easily deployed in distributed mode on Swarm to create a multi-tenant, highly-available and scalable object store.
+        SEO Keywords: Docker Swarm, Docker Compose
+
+      - Deploy MinIO on Kubernetes:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/kubernetes/README.md
+        Slug: deploy-minio-on-kubernetes
+        SEO Title: MinIO | Deploy MinIO on Kubernetes
+        SEO Description: This guide documents the multiple options to deploy MinIO on Kubernetes. Concepts like Deployments and StatefulSets MinIO in standalone, distributed or gateway mode.
+        SEO Keywords: kubernetes, statefulsets, helm chart repository
+
+      - Deploy MinIO on Docker Compose:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/docker-compose/README.md
+        Slug: deploy-minio-on-docker-compose
+        SEO Title: MinIO | Deploy MinIO on Docker Compose
+        SEO Description: This guide covers deployment of MinIO using Docker Compose. Compose allows defining and running single host, multi-container Docker applications.
+        SEO Keywords: Docker compose, distributed minio, single host, multi-container
+
   - MinIO Client:
       - MinIO Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/mc/master/README.md
@@ -458,39 +487,3 @@ Documents:
         SEO Title: MinIO | How to generate Let's Encrypt certificate using Certbot - Cookbook/Recipe
         SEO Description: In this recipe, we will generate a Let's Encrypt certificate using Certbot. This certificate will then be deployed for use in the MinIO server.
         SEO Keywords: Let's Encrypt, Certbot, Certificate Authority
-
-  - MinIO Deployment:
-      - MinIO Deployment Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/README.md
-        Slug: minio-deployment-quickstart-guide
-        SEO Title: MinIO | MinIO Deployment Quickstart Guide
-        SEO Description: This guide covers deployment documentation for Orchestration platforms - Docker Swarm, Docker Compose, Kubernetes, DC/OS
-        SEO Keywords: Docker Swarm, Docker Compose, Kubernetes, DC/OS
-
-      - Deploy MinIO on Docker Swarm:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/docker-swarm/README.md
-        Slug: deploy-minio-on-docker-swarm
-        SEO Title: MinIO | Deploy MinIO on Docker Swarm
-        SEO Description: This guide covers how MinIO server can be easily deployed in distributed mode on Swarm to create a multi-tenant, highly-available and scalable object store.
-        SEO Keywords: Docker Swarm, Docker Compose
-
-      - Deploy MinIO on Kubernetes:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/kubernetes/README.md
-        Slug: deploy-minio-on-kubernetes
-        SEO Title: MinIO | Deploy MinIO on Kubernetes
-        SEO Description: This guide documents the multiple options to deploy MinIO on Kubernetes. Concepts like Deployments and StatefulSets MinIO in standalone, distributed or gateway mode.
-        SEO Keywords: kubernetes, statefulsets, helm chart repository
-
-      - Deploy MinIO on DC/OS:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/dcos/README.md
-        Slug: deploy-minio-on-dc-os
-        SEO Title: MinIO | Deploy MinIO on DC/OS
-        SEO Description: This guide documents the deployment of MinIO on DC/OS
-        SEO Keywords: DC/OS, Marathon-LB
-
-      - Deploy MinIO on Docker Compose:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/docker-compose/README.md
-        Slug: deploy-minio-on-docker-compose
-        SEO Title: MinIO | Deploy MinIO on Docker Compose
-        SEO Description: This guide covers deployment of MinIO using Docker Compose. Compose allows defining and running single host, multi-container Docker applications.
-        SEO Keywords: Docker compose, distributed minio, single host, multi-container
