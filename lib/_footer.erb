@@ -120,13 +120,6 @@
               })(document, 'script', 'https://lftracker.leadfeeder.com/<%= categories["LeadFeeder"] %>.js');
             })();
           </script>
-        <%- elsif categories.key?("KickFire") && !categories["KickFire"].nil? -%>
-          <!-- KickFire -->
-          <script>
-            var DID = <%= categories["KickFire"] %>;
-            var MyPageName = window.location.href.replace("http://","");
-          </script>
-          <script src="https://stats.sa-as.com/live.js"></script>
         <%- end -%>
       <%- end -%>
     <%- end -%>
