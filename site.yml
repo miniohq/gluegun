@@ -126,6 +126,13 @@ Documents:
         SEO Description: This document details how to monitor data over un-authenticated endpoints so tools can pick the data without you having to share server credentials
         SEO Keywords: endpoints, monitoring, prometheus, healthcheck
 
+      - How to monitor MinIO using Prometheus:
+        Link: https://github.com/minio/minio/blob/master/docs/metrics/prometheus/README.md
+        Slug: how-to-monitor-minio-using-prometheus
+        SEO Title: MinIO | How to monitor MinIO using Prometheus
+        SEO Description: This document explains how to setup Prometheus and scrape metrics data from MinIO servers.
+        SEO Keywords: endpoints, monitoring, prometheus, healthcheck
+
       - MinIO Federation Quickstart Guide:
         Link: https://github.com/minio/minio/blob/master/docs/federation/lookup/README.md
         Slug: minio-federation-quickstart-guide
@@ -473,13 +480,6 @@ Documents:
         SEO Title: MinIO | How to use MinIO's server-side-encryption with aws-cli - Cookbook/Recipe
         SEO Description: MinIO supports S3 server-side-encryption with customer provided keys (SSE-C), this describes the use of server-side encryption with AWS Command Line Interface (aws-cli)
         SEO Keywords: aws-cli, server side encryption
-
-      - How to monitor MinIO using Prometheus:
-        Link: https://github.com/minio/cookbook/blob/master/docs/how-to-monitor-minio-with-prometheus.md
-        Slug: how-to-monitor-minio-using-prometheus
-        SEO Title: MinIO | How to monitor MinIO using Prometheus - Cookbook/Recipe
-        SEO Description: This document explains how to setup Prometheus and configure it to scrape data from MinIO servers.
-        SEO Keywords: Prometheus
 
       - Generate Let's Encrypt certificate using Certbot for MinIO:
         Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/generate-lets-encypt-certificate-using-certbot-for-minio.md
