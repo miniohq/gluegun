@@ -120,6 +120,14 @@ blockquote {
     }
   }
 
+  a[href="https://min.io"] {
+    & > img:not([class]) {
+      @media (min-width: $screen-sm-min) {
+        width: 340px;
+      }
+    }
+  }
+
   ul:not([class]) {
     li {
       padding-bottom: 5px;
