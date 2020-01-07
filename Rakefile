@@ -8,7 +8,7 @@ task :clean do
 end
 
 task :build do
-    sh "yarn && gulp"
+    sh "npm install && npm run compile"
     sh "gem build gluegun.gemspec"
     puts "DONE. To install gluegun, run `gem install gluegun`"
 end
