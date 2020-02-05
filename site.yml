@@ -99,19 +99,26 @@ Documents:
         SEO Description: This guide provides code, examples and insight into running MinIO in gateway mode in front of Microsoft's Azure Blob Storage
         SEO Keywords: gateway mode, azure blob, microsoft azure blob storage, blob, blob storage, S3 API
 
-      - MinIO Gateway for GCS:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/gcs.md
-        Slug: minio-gateway-for-gcs
-        SEO Title: MinIO | Learn how to deploy MinIO with Google Cloud Storage
-        SEO Description: This guide provides code, examples and insights for running MinIO in gateway mode in front of Google Cloud Storage
-        SEO Keywords: gateway mode, google cloud, minio docker GCS, S3 API
-
       - MinIO Gateway for NAS:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/nas.md
         Slug: minio-gateway-for-nas
         SEO Title: MinIO | Learn how to add Amazon S3 compatibility to NAS storage
         SEO Description: This guide provides code, examples and insights for running MinIO in gateway mode to enable the S3 API for Network Attached Storage
         SEO Keywords: Network Attached Storage, NAS
+
+      - MinIO Gateway for S3:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/s3.md
+        Slug: minio-gateway-for-s3
+        SEO Title: MinIO | Learn how to deploy MinIO with Amazon S3
+        SEO Description: This guide provides code, examples and insights for running MinIO in gateway mode in front of Amazon S3
+        SEO Keywords: gateway mode, amazon s3, minio docker s3, S3 API
+
+      - MinIO Gateway for HDFS:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/hdfs.md
+        Slug: minio-gateway-for-hdfs
+        SEO Title: MinIO | Learn how to deploy MinIO with HDFS
+        SEO Description: This guide provides code, examples and insights for running MinIO in gateway mode in front of HDFS
+        SEO Keywords: gateway mode, hdfs, minio docker hdfs, S3 API
 
       - MinIO Disk Cache Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/disk-caching/README.md

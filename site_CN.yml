@@ -59,10 +59,6 @@ Documents:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/gateway/azure.md
         Slug: minio-gateway-for-azure
 
-      - MinIO GCS网关:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/gateway/gcs.md
-        Slug: minio-gateway-for-gcs
-
       - MinIO NAS网关:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/gateway/nas.md
         Slug: minio-gateway-for-nas
