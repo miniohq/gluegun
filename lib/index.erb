@@ -68,3 +68,10 @@
   </head>
 
   <body>
+    <%- if !@site_map['Plugins'].nil? -%>
+      <%- @site_map['Plugins'].each do |categories| -%>
+        <%- if categories.key?("Google Tag Manager") -%>
+          <iframe src="https://www.googletagmanager.com/ns.html?id=<%= categories["Google Tag Manager"] %>" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        <%- end -%>
+      <%- end -%>
+    <%- end -%>

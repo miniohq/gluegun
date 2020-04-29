@@ -9,11 +9,12 @@ Language:
   - Chinese: /cn/
 
 Plugins:
+  - Google Tag Manager: "GTM-TWQNHTD"
+  - Google Analytics: "UA-56860620-1"
   - Algolia:
       apiKey: "0ba0d26da4d1483f96c03fe508304a64"
       index: "minio"
       tag: "en"
-  - Google Analytics: "UA-56860620-1"
   - LeadFeeder: "lftracker_v1_DzLR5a5kKJA7BoQ2"
   - KickFire: "258964"
   - Footer Widget:
