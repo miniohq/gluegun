@@ -20,77 +20,77 @@ Plugins:
 Documents:
   - MinIO服务器: # MinIO Server
       - MinIO快速入门指南:
-        Link: https://raw.githubusercontent.com/minio/minio/master/README_zh_CN.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/README_zh_CN.md
         Slug: minio-quickstart-guide
 
       - MinIO Docker快速入门:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/docker/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/docker/README.md
         Slug: minio-docker-quickstart-guide
 
       - MinIO纠删码快速入门:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/erasure/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/erasure/README.md
         Slug: minio-erasure-code-quickstart-guide
 
       - 分布式MinIO快速入门:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/distributed/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/distributed/README.md
         Slug: distributed-minio-quickstart-guide
 
       - 使用TLS安全的访问MinIO服务:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/tls/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/tls/README.md
         Slug: how-to-secure-access-to-minio-server-with-tls
 
       - MinIO存储桶通知指南:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/bucket/notifications/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/bucket/notifications/README.md
         Slug: minio-bucket-notification-guide
 
       - MinIO服务限制/租户:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/minio-limits.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/minio-limits.md
         Slug: minio-server-limits-per-tenant
 
       - MinIO Server配置指南:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/config/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/config/README.md
         Slug: minio-server-configuration-guide
 
       - MinIO多租户（Multi-tenant）部署指南:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/multi-tenancy/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/multi-tenancy/README.md
         Slug: multi-tenant-minio-deployment-guide
 
       - MinIO Azure网关:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/gateway/azure.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/gateway/azure.md
         Slug: minio-gateway-for-azure
 
       - MinIO NAS网关:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/gateway/nas.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/gateway/nas.md
         Slug: minio-gateway-for-nas
 
       - MinIO磁盘缓存指南:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/disk-caching/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/disk-caching/README.md
         Slug: minio-disk-cache-guide
 
   - MinIO部署: # MinIO Deployment
       - MinIO部署快速入门:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/orchestration/README.md
         Slug: minio-deployment-quickstart-guide
 
       - 使用Docker Swarm部署MinIO:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/docker-swarm/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/orchestration/docker-swarm/README.md
         Slug: deploy-minio-on-docker-swarm
 
       - 使用Kubernetes部署MinIO:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/kubernetes/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/orchestration/kubernetes/README.md
         Slug: deploy-minio-on-kubernetes
 
       - 使用Docker Compose部署MinIO:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/zh_CN/orchestration/docker-compose/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/zh_CN/orchestration/docker-compose/README.md
         Slug: deploy-minio-on-docker-compose
 
   - MinIO客户端: # MinIO Client
       - MinIO客户端快速入门指南:
-        Link: https://raw.githubusercontent.com/minio/mc/master/README_zh_CN.md
+        Link: https://raw.githubusercontent.com/minio/mc/release/README_zh_CN.md
         Slug: minio-client-quickstart-guide
 
       - MinIO Client完全指南:
-        Link: https://raw.githubusercontent.com/minio/mc/master/docs/zh_CN/minio-client-complete-guide.md
+        Link: https://raw.githubusercontent.com/minio/mc/release/docs/zh_CN/minio-client-complete-guide.md
         Slug: minio-client-complete-guide
 
   - MinIO SDKs:
@@ -103,11 +103,11 @@ Documents:
         Slug: javascript-client-api-reference
 
       - Java Client快速入门指南:
-        Link: https://raw.githubusercontent.com/minio/minio-java/master/README_zh_CN.md
+        Link: https://raw.githubusercontent.com/minio/minio-java/release/README_zh_CN.md
         Slug: java-client-quickstart-guide
 
       - Java Client API参考文档:
-        Link: https://raw.githubusercontent.com/minio/minio-java/master/docs/zh_CN/API.md
+        Link: https://raw.githubusercontent.com/minio/minio-java/release/docs/zh_CN/API.md
         Slug: java-client-api-reference
 
       - Python Client快速入门指南:
@@ -148,7 +148,7 @@ Documents:
         Slug: restic-with-minio
 
       - 将MySQL备份存储到MinIO:
-        Link: https://github.com/minio/cookbook/blob/master/docs/zh_CN/store-mysql-backups-in-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/zh_CN/store-mysql-backups-in-minio.md
         Slug: store-mysql-backups-in-minio
 
       - 将MongoDB备份存储到MinIO:

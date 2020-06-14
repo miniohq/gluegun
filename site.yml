@@ -24,133 +24,133 @@ Plugins:
 Documents:
   - MinIO Server:
       - MinIO Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio/master/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/README.md
         Slug: minio-quickstart-guide
         SEO Title: MinIO | The MinIO Quickstart Guide
         SEO Description: This guide covers the basics of installing and testing the MinIO Server and Client
         SEO Keywords: MinIO FreeBSD, MinIO Windows, MinIO GNU/Linux, MinIO MacOS, MinIO Docker Container
 
       - MinIO Docker Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/docker/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/docker/README.md
         Slug: minio-docker-quickstart-guide
         SEO Title: MinIO | Learn more about MinIO's Docker Implementation
         SEO Description: The MinIO Docker Quickstart Guide offers examples, code and documentation for those using Docker to run MinIO
         SEO Keywords: Docker, MinIO container, minio container with persistent storage, Standalone MinIO on Docker, MinIO Docker Tips, Distributed MinIO on Docker
 
       - MinIO Erasure Code Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/erasure/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/erasure/README.md
         Slug: minio-erasure-code-quickstart-guide
         SEO Title: MinIO | Learn more about MinIO's Erasure Code Implementation
         SEO Description: The MinIO Erasure Code Quickstart Guide offers examples, code and insight on this powerful data protection approach
         SEO Keywords: Erasure coding, inline, forward error correction, reed-solomon code, silent data corruption, RAID6, BitRot protection, healing, highway hash
 
       - Distributed MinIO Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/distributed/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/distributed/README.md
         Slug: distributed-minio-quickstart-guide
         SEO Title: MinIO | Learn more about Deploying MinIO in Distributed Mode
         SEO Description: The MinIO Distributed Code Quickstart Guide offers examples, code and insight on how to pool multiple dives into a single object storage server
         SEO Keywords: distributed mode, pooling drives, Consistency Guarantees
 
       - Disaggregated Spark and Hadoop Hive with MinIO:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/bigdata/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/bigdata/README.md
         Slug: disaggregated-spark-and-hadoop-hive-with-minio
         SEO Title: MinIO | Learn more about disaggregated Spark and Hadoop Hive with MinIO
         SEO Description: This document describes how to disaggregate storage from compute in any Spark or Hive deployment using MinIO
         SEO Keywords: distributed mode, Hive, Hadoop, Spark, Hortonworks, Cloudera, MapR
 
       - How to secure access to MinIO server with TLS:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/tls/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/tls/README.md
         Slug: how-to-secure-access-to-minio-server-with-tls
         SEO Title: MinIO | Learn how to secure access to MinIO server with TLS
         SEO Description: This guide explains how to configure MinIO Server with TLS certificates on Linux and Windows platforms.
         SEO Keywords: TLS certificates, private key and public certificates, certificate authority, self-signed keys, OpenSSL keys, ECDSA private keys, RSA private key, GnuTLS certificates
 
       - MinIO Bucket Notification Guide:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/bucket/notifications/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/bucket/notifications/README.md
         Slug: minio-bucket-notification-guide
         SEO Title: MinIO | Learn how to use MinIO Bucket Notifications
         SEO Description: The guide explains what events occuring on objects in buckets can be monitored using bucket event notifications
         SEO Keywords: s3:ObjectCreated:Put, s3:ObjectCreated:CompleteMultipartUpload, s3:ObjectAccessed:Head, s3:ObjectCreated:Post, s3:ObjectRemoved:Delete, s3:ObjectCreated:Copy, s3:ObjectAccessed:Get, AMQP, RabbitMQ, RabbitMQ, Elasticsearch, Redis, NATS, postgres, mysql, Kafka, webhooks, nsq
 
       - MinIO Server Limits Per Tenant:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/minio-limits.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/minio-limits.md
         Slug: minio-server-limits-per-tenant
         SEO Title: MinIO | Learn how to configure your MinIO server
         SEO Description: This guide includes code, examples and tips on how to get the most out of your MinIO server
         SEO Keywords:
 
       - MinIO Server Configuration Guide:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/config/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/config/README.md
         Slug: minio-server-configuration-guide
         SEO Title: MinIO | Learn how to configure your MinIO server
         SEO Description: This guide includes code, examples and tips on how to get the most out of your MinIO server
         SEO Keywords: server configuration files, certificate directory, storage class
 
       - Multi-tenant MinIO Deployment Guide:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/multi-tenancy/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/multi-tenancy/README.md
         Slug: multi-tenant-minio-deployment-guide
         SEO Title: MinIO | Different configurations of hosts, nodes, and drives.
         SEO Description: This guide provides commands to set up different configurations of hosts, nodes, and drives. Can be used as a starting point for other configurations.
         SEO Keywords: Standalone Deployment, Distributed Deployment, Cloud Scale Deployment, Multiple Tenants on a Single Drive
 
       - MinIO Gateway for Azure:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/azure.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/gateway/azure.md
         Slug: minio-gateway-for-azure
         SEO Title: MinIO | Learn how to deploy MinIO with Microsoft Azure Blob Storage
         SEO Description: This guide provides code, examples and insight into running MinIO in gateway mode in front of Microsoft's Azure Blob Storage
         SEO Keywords: gateway mode, azure blob, microsoft azure blob storage, blob, blob storage, S3 API
 
       - MinIO Gateway for NAS:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/nas.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/gateway/nas.md
         Slug: minio-gateway-for-nas
         SEO Title: MinIO | Learn how to add Amazon S3 compatibility to NAS storage
         SEO Description: This guide provides code, examples and insights for running MinIO in gateway mode to enable the S3 API for Network Attached Storage
         SEO Keywords: Network Attached Storage, NAS
 
       - MinIO Gateway for S3:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/s3.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/gateway/s3.md
         Slug: minio-gateway-for-s3
         SEO Title: MinIO | Learn how to deploy MinIO with Amazon S3
         SEO Description: This guide provides code, examples and insights for running MinIO in gateway mode in front of Amazon S3
         SEO Keywords: gateway mode, amazon s3, minio docker s3, S3 API
 
       - MinIO Gateway for HDFS:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/hdfs.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/gateway/hdfs.md
         Slug: minio-gateway-for-hdfs
         SEO Title: MinIO | Learn how to deploy MinIO with HDFS
         SEO Description: This guide provides code, examples and insights for running MinIO in gateway mode in front of HDFS
         SEO Keywords: gateway mode, hdfs, minio docker hdfs, S3 API
 
       - MinIO Disk Cache Guide:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/disk-caching/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/disk-caching/README.md
         Slug: minio-disk-cache-guide
         SEO Title: MinIO | Learn how to use caching to store content closer to tenants
         SEO Description: This guide details how to use caching disks to store content close to tenants improving performance and time to first byte
         SEO Keywords: disk caching, object serving
 
       - MinIO Monitoring Guide:
-        Link: https://github.com/minio/minio/blob/master/docs/metrics/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/metrics/README.md
         Slug: minio-monitoring-guide
         SEO Title: MinIO | Learn how to configure the MinIO server for monitoring
         SEO Description: This document details how to monitor data over un-authenticated endpoints so tools can pick the data without you having to share server credentials
         SEO Keywords: endpoints, monitoring, prometheus, healthcheck
 
       - How to monitor MinIO using Prometheus:
-        Link: https://github.com/minio/minio/blob/master/docs/metrics/prometheus/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/metrics/prometheus/README.md
         Slug: how-to-monitor-minio-using-prometheus
         SEO Title: MinIO | How to monitor MinIO using Prometheus
         SEO Description: This document explains how to setup Prometheus and scrape metrics data from MinIO servers.
         SEO Keywords: endpoints, monitoring, prometheus, healthcheck
 
       - MinIO Federation Quickstart Guide:
-        Link: https://github.com/minio/minio/blob/master/docs/federation/lookup/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/federation/lookup/README.md
         Slug: minio-federation-quickstart-guide
         SEO Title: MinIO | Learn how to configure the MinIO bucket lookups with DNS
         SEO Description: This document explains how to configure MinIO with Bucket lookup from DNS style federation.
         SEO Keywords: Federation, DNS, CoreDNS, Environment Variables, MINIO_ETCD_ENDPOINTS, MINIO_DOMAIN, MINIO_PUBLIC_IPS
 
       - MinIO Legacy KMS Quickstart Guide:
-        Link: https://github.com/minio/minio/blob/master/docs/kms/vault-legacy.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/kms/vault-legacy.md
         Slug: minio-vault-legacy
         SEO Title: MinIO | Learn how to configure the MinIO with Key Management Systems
         SEO Description: This document explains how to leverage external KMS or direct KMS master keys
@@ -158,42 +158,42 @@ Documents:
         Options: hidden
 
       - MinIO KMS Quickstart Guide:
-        Link: https://github.com/minio/minio/blob/master/docs/kms/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/kms/README.md
         Slug: minio-kms-quickstart-guide
         SEO Title: MinIO | Learn how to configure the MinIO with Key Management Systems
         SEO Description: This document explains how to leverage external KMS or direct KMS master keys
         SEO Keywords: SSE-S3, external KMS, key management system, Hashicorp Vault, Direct KMS master keys, Vault Environment variables, auto-encryption
 
       - MinIO Select API Quickstart Guide:
-        Link: https://github.com/minio/minio/blob/master/docs/select/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/select/README.md
         Slug: minio-select-api-quickstart-guide
         SEO Title: MinIO | Learn how to use the Select API
         SEO Description: This document how to use the Select API to retrieve only the data needed by the application - resulting in massive performance improvements
         SEO Keywords: S3 Select, Select API, aws_secret_access_key
 
       - MinIO Compression Guide:
-        Link: https://github.com/minio/minio/blob/master/docs/compression/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/compression/README.md
         Slug: minio-compression-guide
         SEO Title: MinIO | Learn how to employ streaming compression
         SEO Description: MinIO server allows streaming compression to ensure efficient disk space usage. Compression happens inflight. MinIO uses golang/snappy streaming compression.
         SEO Keywords: streaming compression, golang/snappy
 
       - MinIO Multi-User Quickstart Guide:
-        Link: https://github.com/minio/minio/blob/master/docs/multi-user/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/multi-user/README.md
         Slug: minio-multi-user-quickstart-guide
         SEO Title: MinIO | Learn how to configure MinIO for multiple long term users
         SEO Description: This document explains how to add/remove users and modify their access rights.
         SEO Keywords: multi-user, configure users, user permissions, canned policies
 
       - MinIO STS Quickstart Guide:
-        Link: https://github.com/minio/minio/blob/master/docs/sts/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/sts/README.md
         Slug: minio-sts-quickstart-guide
         SEO Title: MinIO | Learn how to configure MinIO for Security Token Service
         SEO Description: This document explains how to configure STS endpoint services that enable clients to request temporary credentials for MinIO resources.
         SEO Keywords: STS, endpoint services, temporary credentials, webIdentity, AssumeRole, WSO2, OPA, etcd, client grants
 
       - MinIO HDFS Gateway Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/hdfs.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/gateway/hdfs.md
         Slug: minio-hdfs-gateway-quickstart-guide
         SEO Title: MinIO | Learn how MinIO adds Amazon S3 API support to Hadoop HDFS filesystem.
         SEO Description: This document explains how to configure MinIO on Hadoop HDFS filesystem so that HDFS supports Amazon S3 API.
@@ -202,28 +202,28 @@ Documents:
 
   - MinIO Deployment:
       - MinIO Deployment Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/orchestration/README.md
         Slug: minio-deployment-quickstart-guide
         SEO Title: MinIO | MinIO Deployment Quickstart Guide
         SEO Description: This guide covers deployment documentation for Orchestration platforms - Docker Swarm, Docker Compose, Kubernetes, DC/OS
         SEO Keywords: Docker Swarm, Docker Compose, Kubernetes, DC/OS
 
       - Deploy MinIO on Docker Swarm:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/docker-swarm/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/orchestration/docker-swarm/README.md
         Slug: deploy-minio-on-docker-swarm
         SEO Title: MinIO | Deploy MinIO on Docker Swarm
         SEO Description: This guide covers how MinIO server can be easily deployed in distributed mode on Swarm to create a multi-tenant, highly-available and scalable object store.
         SEO Keywords: Docker Swarm, Docker Compose
 
       - Deploy MinIO on Kubernetes:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/kubernetes/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/orchestration/kubernetes/README.md
         Slug: deploy-minio-on-kubernetes
         SEO Title: MinIO | Deploy MinIO on Kubernetes
         SEO Description: This guide documents the multiple options to deploy MinIO on Kubernetes. Concepts like Deployments and StatefulSets MinIO in standalone, distributed or gateway mode.
         SEO Keywords: kubernetes, statefulsets, helm chart repository
 
       - Deploy MinIO on Docker Compose:
-        Link: https://raw.githubusercontent.com/minio/minio/master/docs/orchestration/docker-compose/README.md
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/orchestration/docker-compose/README.md
         Slug: deploy-minio-on-docker-compose
         SEO Title: MinIO | Deploy MinIO on Docker Compose
         SEO Description: This guide covers deployment of MinIO using Docker Compose. Compose allows defining and running single host, multi-container Docker applications.
@@ -231,21 +231,21 @@ Documents:
 
   - MinIO Client:
       - MinIO Client Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/mc/master/README.md
+        Link: https://raw.githubusercontent.com/minio/mc/release/README.md
         Slug: minio-client-quickstart-guide
         SEO Title: MinIO | MinIO Client Quickstart Guide
         SEO Description: This document explains how to use the MinIO Client as a modern alternative to UNIX commands like ls, cat, cp, mirror, diff, find etc. For filesystems + Amazon S3 compatible services
         SEO Keywords: minio client, UNIX, docker
 
       - MinIO Client Complete Guide:
-        Link: https://raw.githubusercontent.com/minio/mc/master/docs/minio-client-complete-guide.md
+        Link: https://raw.githubusercontent.com/minio/mc/release/docs/minio-client-complete-guide.md
         Slug: minio-client-complete-guide
         SEO Title: MinIO | The complete guide to the MinIO client
         SEO Description: This document explains in detail how to use the MinIO Client as a modern alternative to UNIX commands like ls, cat, cp, mirror, diff, find etc. For filesystems + Amazon S3 compatible services
         SEO Keywords: UNIX commands, minio client, UNIX, docker, mc
 
       - MinIO Admin Complete Guide:
-        Link: https://github.com/minio/mc/blob/master/docs/minio-admin-complete-guide.md
+        Link: https://raw.githubusercontent.com/minio/mc/release/docs/minio-admin-complete-guide.md
         Slug: minio-admin-complete-guide
         SEO Title: MinIO | The complete guide to the MinIO Admin functionality
         SEO Description: This document explains in detail how to use the MinIO Client's administrative functionality including service, info, user, policy, heal
@@ -267,14 +267,14 @@ Documents:
         SEO Keywords: JavaScript Client, JavaScript API, MinIO JavaScript SDK, MinIO JavaScript Client
 
       - Java Client Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio-java/master/README.md
+        Link: https://raw.githubusercontent.com/minio/minio-java/release/README.md
         Slug: java-client-quickstart-guide
         SEO Title: MinIO | Java Client Quickstart Guide
         SEO Description: The MinIO Java Client SDK provides simple APIs to access any Amazon S3 compatible object storage server.
         SEO Keywords: Java Client SDK, MinIO Java Client SDK
 
       - Java Client API Reference:
-        Link: https://raw.githubusercontent.com/minio/minio-java/master/docs/API.md
+        Link: https://raw.githubusercontent.com/minio/minio-java/release/docs/API.md
         Slug: java-client-api-reference
         SEO Title: MinIO | Java Client API Reference
         SEO Description: The MinIO Java Client SDK provides detailed code examples for the MinIO Java API
@@ -359,7 +359,7 @@ Documents:
         SEO Keywords: Restic
 
       - Store MySQL Backups in MinIO:
-        Link: https://github.com/minio/cookbook/blob/master/docs/store-mysql-backups-in-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/store-mysql-backups-in-minio.md
         Slug: store-mysql-backups-in-minio
         SEO Title: MinIO | Store MySQL Backups in MinIO - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to store MySQL backups in MinIO Server.
