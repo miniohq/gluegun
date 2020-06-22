@@ -121,6 +121,14 @@ Documents:
         SEO Description: This guide provides code, examples and insights for running MinIO in gateway mode in front of HDFS
         SEO Keywords: gateway mode, hdfs, minio docker hdfs, S3 API
 
+      - MinIO Gateway for GCS:
+        Link: https://raw.githubusercontent.com/minio/minio/release/docs/gateway/gcs.md
+        Slug: minio-gateway-for-gcs
+        SEO Title: MinIO | Learn how to deploy MinIO with GCS
+        SEO Description: This guide provides code, examples and insight into running MinIO in gateway mode in front of Google Cloud Storage
+        SEO Keywords: gateway mode, gcs, gcp, google cloud, S3 API
+        Options: hidden
+
       - MinIO Disk Cache Guide:
         Link: https://raw.githubusercontent.com/minio/minio/release/docs/disk-caching/README.md
         Slug: minio-disk-cache-guide
