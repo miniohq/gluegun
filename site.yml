@@ -303,14 +303,14 @@ Documents:
         SEO Keywords: Python SDK, Python Client API, MinIO Python SDK, MinIO Python Client API
 
       - Golang Client Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio-go/master/README.md
+        Link: https://raw.githubusercontent.com/minio/minio-go/release/README.md
         Slug: golang-client-quickstart-guide
         SEO Title: MinIO | Golang Client Quickstart Guide
         SEO Description: The MinIO Go Client SDK provides simple APIs to access any Amazon S3 compatible object storage server.
         SEO Keywords: Golang, Go, MinIO Golang Client, MinIO Go Client
 
       - Golang Client API Reference:
-        Link: https://raw.githubusercontent.com/minio/minio-go/master/docs/API.md
+        Link: https://raw.githubusercontent.com/minio/minio-go/release/docs/API.md
         Slug: golang-client-api-reference
         SEO Title: MinIO | Golang Client API Reference
         SEO Description: The MinIO Go Client API reference provides detailed code examples for the MinIO Go SDK
