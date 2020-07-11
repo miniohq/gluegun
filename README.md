@@ -7,7 +7,7 @@ Gluegun glues markdown files to generate a beautiful documentation site.
 
 ## Prerequisite
 
-A minimum version of ruby2.4 and node6 is required
+A minimum version of ruby2.4 and node versions [6.x, 8.x, 9.x, 10.x] are supported.
 
 ## Installation
 

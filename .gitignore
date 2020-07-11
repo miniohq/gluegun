@@ -17,5 +17,6 @@ node_modules
 lib/_sidebar.erb
 lib/css/gluegun.css
 lib/css/gluegun.min.css
+lib/js/gluegun.min.js
 *.css
 .v8flags*.json
