@@ -181,6 +181,14 @@ Documents:
         SEO Description: This document how to use the Select API to retrieve only the data needed by the application - resulting in massive performance improvements
         SEO Keywords: S3 Select, Select API, aws_secret_access_key
 
+  - MinIO Integrations:
+      - Using MinIO with Veeam:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/integrations/veeam/README.md
+        Slug: using-minio-with-veeam
+        SEO Title: MinIO | Learn about using MinIO with Veeam
+        SEO Description: The guide explains how to use MinIO with Veeam software
+        SEO Keywords: versioning, object locking, retention, compliance, governance, PutBucketVersioning, backups, veeam ready, object immutability
+
   - MinIO Gateway:
       - MinIO Gateway for Azure:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/gateway/azure.md
@@ -328,14 +336,14 @@ Documents:
         SEO Keywords: Python SDK, Python Client API, MinIO Python SDK, MinIO Python Client API
 
       - Golang Client Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio-go/release/README.md
+        Link: https://raw.githubusercontent.com/minio/minio-go/master/README.md
         Slug: golang-client-quickstart-guide
         SEO Title: MinIO | Golang Client Quickstart Guide
         SEO Description: The MinIO Go Client SDK provides simple APIs to access any Amazon S3 compatible object storage server.
         SEO Keywords: Golang, Go, MinIO Golang Client, MinIO Go Client
 
       - Golang Client API Reference:
-        Link: https://raw.githubusercontent.com/minio/minio-go/release/docs/API.md
+        Link: https://raw.githubusercontent.com/minio/minio-go/master/docs/API.md
         Slug: golang-client-api-reference
         SEO Title: MinIO | Golang Client API Reference
         SEO Description: The MinIO Go Client API reference provides detailed code examples for the MinIO Go SDK
