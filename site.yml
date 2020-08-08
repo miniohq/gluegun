@@ -160,6 +160,13 @@ Documents:
         SEO Description: The guide explains how to enable and use Object locking features
         SEO Keywords: object locking, immutability, WORM, legal hold, governance, compliance, PutBucketObjectLock
 
+      - MinIO Bucket Replication Guide:
+        Link: https://raw.githubusercontent.com/minio/minio/master/docs/bucket/replication/README.md
+        Slug: minio-bucket-replication-guide
+        SEO Title: MinIO | Learn about MinIO Server Side Bucket Replication
+        SEO Description: The guide explains how MinIO bucket replication is implemented and concepts
+        SEO Keywords: replication, bucket replication, versioning, object locking, compliance, splunk
+
       - MinIO Bucket Notification Guide:
         Link: https://raw.githubusercontent.com/minio/minio/master/docs/bucket/notifications/README.md
         Slug: minio-bucket-notification-guide
