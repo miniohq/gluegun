@@ -393,168 +393,168 @@ Documents:
         SEO Keywords: distributed mode, Hive, Hadoop, Spark, Hortonworks, Cloudera, MapR
 
       - S3cmd with MinIO:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/s3cmd-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/s3cmd-with-minio.md
         Slug: s3cmd-with-minio
         SEO Title: MinIO | S3cmd with MinIO - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to configure and use S3cmd to manage data with MinIO Server
         SEO Keywords: S3cmd
 
       - AWS CLI with MinIO:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-cli-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/aws-cli-with-minio.md
         Slug: aws-cli-with-minio
         SEO Title: MinIO | AWS CLI with MinIO - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to configure and use AWS CLI to manage data with MinIO Server
         SEO Keywords: AWS CLI
 
       - restic with MinIO:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/restic-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/restic-with-minio.md
         Slug: restic-with-minio
         SEO Title: MinIO | restic with MinIO - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to use restic to backup data into MinIO Server.
         SEO Keywords: Restic
 
       - Store MySQL Backups in MinIO:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/store-mysql-backups-in-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/store-mysql-backups-in-minio.md
         Slug: store-mysql-backups-in-minio
         SEO Title: MinIO | Store MySQL Backups in MinIO - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to store MySQL backups in MinIO Server.
         SEO Keywords: MySQL, Backups
 
       - Store MongoDB Backups in MinIO:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/store-mongodb-backups-in-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/store-mongodb-backups-in-minio.md
         Slug: store-mongodb-backups-in-minio
         SEO Title: MinIO | Store MongoDB Backups in MinIO - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to store MongoDB backups in MinIO Server.
         SEO Keywords: MongoDB
 
       - Store PostgreSQL Backups in MinIO:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/store-postgresql-backups-in-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/store-postgresql-backups-in-minio.md
         Slug: store-postgresql-backups-in-minio
         SEO Title: MinIO | Store PostgreSQL Backups in MinIO - Cookbook/Recipe
         SEO Description: In this recipe you will learn how to store PostgreSQL backups in MinIO Server.
         SEO Keywords: PostgresSQL
 
       - Setup Caddy proxy with MinIO:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/setup-caddy-proxy-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/setup-caddy-proxy-with-minio.md
         Slug: setup-caddy-proxy-with-minio
         SEO Title: MinIO | Setup Caddy proxy with MinIO - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to set up Caddy proxy with MinIO Server.
         SEO Keywords: Caddy proxy
 
       - Setup Nginx proxy with MinIO:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/setup-nginx-proxy-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/setup-nginx-proxy-with-minio.md
         Slug: setup-nginx-proxy-with-minio
         SEO Title: MinIO | Setup Nginx proxy with MinIO - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to set up Nginx proxy with MinIO Server.
         SEO Keywords: Nginx proxy
 
       - Store Apache Logs into MinIO:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aggregate-apache-logs-with-fluentd-and-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/aggregate-apache-logs-with-fluentd-and-minio.md
         Slug: aggregate-apache-logs-with-fluentd-and-minio
         SEO Title: MinIO | Store Apache Logs into MinIO - Cookbook/Recipe
         SEO Description: In this recipe, we will learn how to use MinIO as log aggregator for fluentd using fluent-plugin-s3 plugin.
         SEO Keywords: Apache
 
       - Rclone with MinIO Server:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/rclone-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/rclone-with-minio.md
         Slug: rclone-with-minio-server
         SEO Title: MinIO | Rclone with MinIO Server- Cookbook/Recipe
         SEO Description: This recipe describes how to use rclone with MinIO Server.
         SEO Keywords: Rclone
 
       - Setup Apache HTTP proxy with MinIO Server:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/setup-apache-http-proxy-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/setup-apache-http-proxy-with-minio.md
         Slug: setup-apache-http-proxy-with-minio-server
         SEO Title: MinIO | Setup Apache HTTP proxy with MinIO Server - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to set up Apache HTTP with mod_proxy module for connecting to MinIO Server. We are going to set up a new VirtualHost for example.com
         SEO Keywords: Apache HTTP
 
       - Upload files from browser using pre-signed URLs:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/presigned-put-upload-via-browser.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/presigned-put-upload-via-browser.md
         Slug: upload-files-from-browser-using-pre-signed-urls
         SEO Title: MinIO | Upload files from browser using pre-signed URLs - Cookbook/Recipe
         SEO Description: This guide describes how to use the presigned PutObject API from the MinIO JavaScript Library to generate a pre-signed URL.
         SEO Keywords: pre-signed URLs
 
       - How to run MinIO in FreeNAS?:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/running-minio-in-freenas.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/running-minio-in-freenas.md
         Slug: how-to-run-minio-in-freenas
         SEO Title: MinIO | How to run MinIO in FreeNAS? - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to run MinIO with FreeNAS.
         SEO Keywords: FreeNAS
 
       - How to use AWS SDK for PHP with MinIO Server:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-php-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/aws-sdk-for-php-with-minio.md
         Slug: how-to-use-aws-sdk-for-php-with-minio-server
         SEO Title: MinIO | How to use AWS SDK for PHP with MinIO Server - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to use aws-sdk-php, the official AWS SDK for the PHP programming language, with MinIO server.
         SEO Keywords: AWS SDK for PHP
 
       - How to use AWS SDK for Ruby with MinIO Server:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-ruby-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/aws-sdk-for-ruby-with-minio.md
         Slug: how-to-use-aws-sdk-for-ruby-with-minio-server
         SEO Title: MinIO | How to use AWS SDK for Ruby with MinIO Server - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to use aws-sdk, the official AWS SDK for the Ruby programming language, with MinIO server
         SEO Keywords: AWS SDK for Ruby, AWS SDK for Ruby on Rails
 
       - How to use AWS SDK for Python with MinIO Server:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-python-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/aws-sdk-for-python-with-minio.md
         Slug: how-to-use-aws-sdk-for-python-with-minio-server
         SEO Title: MinIO | How to use AWS SDK for Python with MinIO Server - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to use aws-sdk-python, the official AWS SDK for the Python programming language, with MinIO server.
         SEO Keywords: AWS SDK for Python
 
       - How to use AWS SDK for JavaScript with MinIO Server:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-javascript-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/aws-sdk-for-javascript-with-minio.md
         Slug: how-to-use-aws-sdk-for-javascript-with-minio-server
         SEO Title: MinIO | How to use AWS SDK for JavaScript with MinIO Server - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to use aws-sdk, the official AWS SDK for the JavaScript programming language, with MinIO server.
         SEO Keywords: AWS SDK for JavaScript
 
       - How to run multiple MinIO servers with Træfɪk:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/multiple-minio-servers-with-traefik.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/multiple-minio-servers-with-traefik.md
         Slug: how-to-run-multiple-minio-servers-with-traef-k
         SEO Title: MinIO | How to run multiple MinIO servers with Træfɪk - Cookbook/Recipe
         SEO Description: This cookbook will explain how you can setup multiple MinIO instances via Docker which you can access on different subdomains through Træfɪk.
         SEO Keywords: Træfɪk, reverse proxy, golang
 
       - How to use AWS SDK for Go with MinIO Server:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-go-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/aws-sdk-for-go-with-minio.md
         Slug: how-to-use-aws-sdk-for-go-with-minio-server
         SEO Title: MinIO | How to use AWS SDK for Go with MinIO Server - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to use aws-sdk-go, the official AWS SDK for the Go programming language, with MinIO server
         SEO Keywords: AWS SDK for Go, Golang
 
       - How to use AWS SDK for Java with MinIO Server:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-java-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/aws-sdk-for-java-with-minio.md
         Slug: how-to-use-aws-sdk-for-java-with-minio-server
         SEO Title: MinIO | How to use AWS SDK for Java with MinIO Server - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to use aws-sdk-java, the official AWS SDK for the Java programming language, with MinIO server
         SEO Keywords: AWS SDK for Java
 
       - How to use Paperclip with MinIO Server:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/how-to-use-paperclip-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/how-to-use-paperclip-with-minio.md
         Slug: how-to-use-paperclip-with-minio-server
         SEO Title: MinIO | How to use Paperclip with MinIO Server - Cookbook/Recipe
         SEO Description: Paperclip is intended as an easy file attachment library for ActiveRecord. In this recipe you will learn how to configure MinIO as an object storage backend for Paperclip.
         SEO Keywords: Paperclip, ActiveRecord
 
       - How to use AWS SDK for .NET with MinIO Server:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/aws-sdk-for-dotnet-with-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/aws-sdk-for-dotnet-with-minio.md
         Slug: how-to-use-aws-sdk-for-net-with-minio-server
         SEO Title: MinIO | How to use AWS SDK for .NET with MinIO Server - Cookbook/Recipe
         SEO Description: In this recipe we will learn how to use aws-sdk-dotnet, the official AWS SDK for the .NET Framework, with MinIO server.
         SEO Keywords: AWS SDK for .NET
 
       - How to use MinIO's server-side-encryption with aws-cli:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/how-to-use-minio-server-side-encryption-with-aws-cli.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/how-to-use-minio-server-side-encryption-with-aws-cli.md
         Slug: how-to-use-minio-s-server-side-encryption-with-aws-cli
         SEO Title: MinIO | How to use MinIO's server-side-encryption with aws-cli - Cookbook/Recipe
         SEO Description: MinIO supports S3 server-side-encryption with customer provided keys (SSE-C), this describes the use of server-side encryption with AWS Command Line Interface (aws-cli)
         SEO Keywords: aws-cli, server side encryption
 
       - Generate Let's Encrypt certificate using Certbot for MinIO:
-        Link: https://raw.githubusercontent.com/minio/cookbook/master/docs/generate-lets-encypt-certificate-using-certbot-for-minio.md
+        Link: https://raw.githubusercontent.com/minio/cookbook/legacy/docs/generate-lets-encypt-certificate-using-certbot-for-minio.md
         Slug: generate-let-s-encypt-certificate-using-concert-for-minio
         SEO Title: MinIO | How to generate Let's Encrypt certificate using Certbot - Cookbook/Recipe
         SEO Description: In this recipe, we will generate a Let's Encrypt certificate using Certbot. This certificate will then be deployed for use in the MinIO server.
