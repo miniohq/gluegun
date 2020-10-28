@@ -329,14 +329,14 @@ Documents:
         SEO Keywords: Java Client SDK, Java Client API, MinIO Java SDK, MinIO Java Client API
 
       - Python Client Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio-py/master/README.md
+        Link: https://raw.githubusercontent.com/minio/minio-py/release/README.md
         Slug: python-client-quickstart-guide
         SEO Title: MinIO | Python Client Quickstart Guide
         SEO Description: The MinIO Python SDK provides simple APIs to access any Amazon S3 compatible object storage server.
         SEO Keywords: Python SDK, Python Client API, MinIO Python SDK, MinIO Python Client API
 
       - Python Client API Reference:
-        Link: https://raw.githubusercontent.com/minio/minio-py/master/docs/API.md
+        Link: https://raw.githubusercontent.com/minio/minio-py/release/docs/API.md
         Slug: python-client-api-reference
         SEO Title: MinIO | Python Client API Reference
         SEO Description: The MinIO Python SDK provides detailed code examples for the Python API
