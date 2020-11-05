@@ -315,14 +315,14 @@ Documents:
         SEO Keywords: JavaScript Client, JavaScript API, MinIO JavaScript SDK, MinIO JavaScript Client
 
       - Java Client Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio-java/release/README.md
+        Link: https://raw.githubusercontent.com/minio/minio-java/master/README.md
         Slug: java-client-quickstart-guide
         SEO Title: MinIO | Java Client Quickstart Guide
         SEO Description: The MinIO Java Client SDK provides simple APIs to access any Amazon S3 compatible object storage server.
         SEO Keywords: Java Client SDK, MinIO Java Client SDK
 
       - Java Client API Reference:
-        Link: https://raw.githubusercontent.com/minio/minio-java/release/docs/API.md
+        Link: https://raw.githubusercontent.com/minio/minio-java/master/docs/API.md
         Slug: java-client-api-reference
         SEO Title: MinIO | Java Client API Reference
         SEO Description: The MinIO Java Client SDK provides detailed code examples for the MinIO Java API
