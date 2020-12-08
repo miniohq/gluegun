@@ -300,20 +300,6 @@ Documents:
         SEO Keywords: service, info, policy, credential, config, heal, docker stable, docker edge, mc admin
 
   - MinIO SDKs:
-      - JavaScript Client Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio-js/master/README.md
-        Slug: javascript-client-quickstart-guide
-        SEO Title: MinIO | JavaScript Client Quickstart Guide
-        SEO Description: This quickstart guide will show you how to install the client SDK and execute an example JavaScript program.
-        SEO Keywords: JavaScript, JavaScript API, npm install minio
-
-      - JavaScript Client API Reference:
-        Link: https://raw.githubusercontent.com/minio/minio-js/master/docs/API.md
-        Slug: javascript-client-api-reference
-        SEO Title: MinIO | JavaScript Client API Reference
-        SEO Description: This document contains the detailed example code for the JavaScript Client API
-        SEO Keywords: JavaScript Client, JavaScript API, MinIO JavaScript SDK, MinIO JavaScript Client
-
       - Java Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio-java/master/README.md
         Slug: java-client-quickstart-guide
@@ -328,20 +314,6 @@ Documents:
         SEO Description: The MinIO Java Client SDK provides detailed code examples for the MinIO Java API
         SEO Keywords: Java Client SDK, Java Client API, MinIO Java SDK, MinIO Java Client API
 
-      - Python Client Quickstart Guide:
-        Link: https://raw.githubusercontent.com/minio/minio-py/release/README.md
-        Slug: python-client-quickstart-guide
-        SEO Title: MinIO | Python Client Quickstart Guide
-        SEO Description: The MinIO Python SDK provides simple APIs to access any Amazon S3 compatible object storage server.
-        SEO Keywords: Python SDK, Python Client API, MinIO Python SDK, MinIO Python Client API
-
-      - Python Client API Reference:
-        Link: https://raw.githubusercontent.com/minio/minio-py/release/docs/API.md
-        Slug: python-client-api-reference
-        SEO Title: MinIO | Python Client API Reference
-        SEO Description: The MinIO Python SDK provides detailed code examples for the Python API
-        SEO Keywords: Python SDK, Python Client API, MinIO Python SDK, MinIO Python Client API
-
       - Golang Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio-go/master/README.md
         Slug: golang-client-quickstart-guide
@@ -355,6 +327,34 @@ Documents:
         SEO Title: MinIO | Golang Client API Reference
         SEO Description: The MinIO Go Client API reference provides detailed code examples for the MinIO Go SDK
         SEO Keywords: Golang, Go, MinIO Golang Client, MinIO Go Client
+
+      - Python Client Quickstart Guide:
+        Link: https://raw.githubusercontent.com/minio/minio-py/master/README.md
+        Slug: python-client-quickstart-guide
+        SEO Title: MinIO | Python Client Quickstart Guide
+        SEO Description: The MinIO Python SDK provides simple APIs to access any Amazon S3 compatible object storage server.
+        SEO Keywords: Python SDK, Python Client API, MinIO Python SDK, MinIO Python Client API
+
+      - Python Client API Reference:
+        Link: https://raw.githubusercontent.com/minio/minio-py/master/docs/API.md
+        Slug: python-client-api-reference
+        SEO Title: MinIO | Python Client API Reference
+        SEO Description: The MinIO Python SDK provides detailed code examples for the Python API
+        SEO Keywords: Python SDK, Python Client API, MinIO Python SDK, MinIO Python Client API
+
+      - JavaScript Client Quickstart Guide:
+        Link: https://raw.githubusercontent.com/minio/minio-js/master/README.md
+        Slug: javascript-client-quickstart-guide
+        SEO Title: MinIO | JavaScript Client Quickstart Guide
+        SEO Description: This quickstart guide will show you how to install the client SDK and execute an example JavaScript program.
+        SEO Keywords: JavaScript, JavaScript API, npm install minio
+
+      - JavaScript Client API Reference:
+        Link: https://raw.githubusercontent.com/minio/minio-js/master/docs/API.md
+        Slug: javascript-client-api-reference
+        SEO Title: MinIO | JavaScript Client API Reference
+        SEO Description: This document contains the detailed example code for the JavaScript Client API
+        SEO Keywords: JavaScript Client, JavaScript API, MinIO JavaScript SDK, MinIO JavaScript Client
 
       - .NET Client Quickstart Guide:
         Link: https://raw.githubusercontent.com/minio/minio-dotnet/release/README.md
